@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for EtherCAT_Project
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -355,7 +355,7 @@ ConfigurationType=Source
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
-AutoOpenOutJob=-1
+AutoOpenOutJob=0
 
 [Generic_SmartPDFSettings]
 ProjectMode=-1
@@ -390,7 +390,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for EtherCAT_Project
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -501,7 +501,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=AnyDesk Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
