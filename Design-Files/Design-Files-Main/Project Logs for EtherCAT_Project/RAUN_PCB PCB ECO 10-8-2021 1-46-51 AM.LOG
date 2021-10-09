@@ -1,0 +1,74 @@
+Removed Pin From Net: NetName=VOUT_12V Pin=R28-1
+Removed Pin From Net: NetName=FB Pin=R28-2
+Change component parameters: Designator = "L6" ("L6"); Footprint = "Ind0805"; UniqueID = "\QJQTAKHD\QDINBKDN\CGEDICPV" ("\QJQTAKHD\QDINBKDN\CGEDICPV")
+Change component parameters (AddParameter): Name = "DC Resistance (DCR)"; Value = "320mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Inductance"; Value = "10uH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "microgate"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "500mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D1" ("D1"); Footprint = "SOD-323"; UniqueID = "\EDZQBKDV\CGZZKRSQ" ("\EDZQBKDV\CGZZKRSQ")
+Change component parameters (AddParameter): Name = "Current - Peak Pulse (10/1000µs)"; Value = "5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "MDD (Microdiode Electronics)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarity"; Value = "Unidirectional"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Breakdown (Min)"; Value = "40V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Clamping (Max) @ Ipp"; Value = "75V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Reverse Standoff (Typ)"; Value = "36V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L1" ("L1"); Footprint = "MLB1608-201P1A(f)"; UniqueID = "\QJQTAKHD\NKSICRLK\LAXOPJVG" ("\QJQTAKHD\NKSICRLK\LAXOPJVG")
+Change component parameters (AddParameter): Name = "Current Rating (Max)"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR) (Max)"; Value = "300mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance @ Frequency"; Value = "200O @ 100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Meled"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L2" ("L2"); Footprint = "MLB1608-201P1A(f)"; UniqueID = "\QJQTAKHD\NKSICRLK\QGALBHTO" ("\QJQTAKHD\NKSICRLK\QGALBHTO")
+Change component parameters (AddParameter): Name = "Current Rating (Max)"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR) (Max)"; Value = "300mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance @ Frequency"; Value = "200O @ 100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Meled"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L3" ("L3"); Footprint = "MLB1608-201P1A(f)"; UniqueID = "\QJQTAKHD\NKSICRLK\AMIQCFWW" ("\QJQTAKHD\NKSICRLK\AMIQCFWW")
+Change component parameters (AddParameter): Name = "Current Rating (Max)"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR) (Max)"; Value = "300mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance @ Frequency"; Value = "200O @ 100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Meled"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L4" ("L4"); Footprint = "MLB1608-201P1A(f)"; UniqueID = "\QJQTAKHD\NKSICRLK\HTWNPHBF" ("\QJQTAKHD\NKSICRLK\HTWNPHBF")
+Change component parameters (AddParameter): Name = "Current Rating (Max)"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR) (Max)"; Value = "300mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance @ Frequency"; Value = "200O @ 100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Meled"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L5" ("L5"); Footprint = "MLB1608-201P1A(f)"; UniqueID = "\QJQTAKHD\NKSICRLK\JTIRWUTX" ("\QJQTAKHD\NKSICRLK\JTIRWUTX")
+Change component parameters (AddParameter): Name = "Current Rating (Max)"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR) (Max)"; Value = "300mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance @ Frequency"; Value = "200O @ 100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Meled"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19" ("R19"); Footprint = "RES 2512"; UniqueID = "\EDZQBKDV\INGODMIY" ("\EDZQBKDV\INGODMIY")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "RALEC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "2512"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power(Watts)"; Value = "1W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "0.18O"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "±200ppm/?"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R20" ("R20"); Footprint = "RES 2512"; UniqueID = "\EDZQBKDV\ORLNUKMC" ("\EDZQBKDV\ORLNUKMC")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "RALEC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "2512"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power(Watts)"; Value = "1W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "0.18O"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "±200ppm/?"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C46" ("C46"); Footprint = "RVT1E100M0405."; UniqueID = "\VBRPNBBV\THBWCJND\EZKYIEZR" ("\VBRPNBBV\THBWCJND\EZKYIEZR")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "L"; Value = "5.4mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "ROQANG"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-45?~+105?"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "25V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "fD"; Value = "4mm"; VariantName = "[No Variations]"
+Added Component: Designator=R28(RES 0805)
+Add component (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power(Watts)"; Value = "0.125W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "9K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VOUT_12V Pin=R28-1
+Added Pin To Net: NetName=FB Pin=R28-2
