@@ -1,0 +1,77 @@
+Change Component Description : Designator=L1 Old Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads New Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads
+Change Component Description : Designator=L2 Old Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads New Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads
+Change Component Description : Designator=L3 Old Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads New Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads
+Change Component Description : Designator=L4 Old Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads New Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads
+Change Component Description : Designator=L5 Old Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads New Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads
+Change component parameters: Designator = "L6"; Footprint = "Ind0805"; UniqueID = "\QJQTAKHD\QDINBKDN\CGEDICPV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "DC Resistance (DCR)"; Value = "320mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Inductance"; Value = "10uH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "microgate"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "500mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L1"; Footprint = "MLB1608-201P1A(f)"; UniqueID = "\QJQTAKHD\NKSICRLK\LAXOPJVG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Current Rating (Max)"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR) (Max)"; Value = "300mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance @ Frequency"; Value = "200O @ 100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Meled"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L2"; Footprint = "MLB1608-201P1A(f)"; UniqueID = "\QJQTAKHD\NKSICRLK\QGALBHTO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Current Rating (Max)"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR) (Max)"; Value = "300mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance @ Frequency"; Value = "200O @ 100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Meled"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L3"; Footprint = "MLB1608-201P1A(f)"; UniqueID = "\QJQTAKHD\NKSICRLK\AMIQCFWW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Current Rating (Max)"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR) (Max)"; Value = "300mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance @ Frequency"; Value = "200O @ 100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Meled"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L4"; Footprint = "MLB1608-201P1A(f)"; UniqueID = "\QJQTAKHD\NKSICRLK\HTWNPHBF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Current Rating (Max)"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR) (Max)"; Value = "300mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance @ Frequency"; Value = "200O @ 100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Meled"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L5"; Footprint = "MLB1608-201P1A(f)"; UniqueID = "\QJQTAKHD\NKSICRLK\JTIRWUTX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Current Rating (Max)"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR) (Max)"; Value = "300mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance @ Frequency"; Value = "200O @ 100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Meled"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=P2(HDR1X6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://lcsc.com/product-detail/Pin-Headers_MINTRON-MTP125-1105S1_C358687.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "XFCN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part No"; Value = "PZ254R-11-06P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "THROUGH HOLE 2.54MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "6-PIN"; VariantName = "[No Variations]"
+Added Component: Designator=P13(HDR1X5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://lcsc.com/product-detail/Pin-Headers_MINTRON-MTP125-1105S1_C358687.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "XFCN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part No"; Value = "PZ254R-11-05P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "THROUGH HOLE 2.54MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5-PIN"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC_3V3 Pin=P2-1
+Added Pin To Net: NetName=SWDIO Pin=P2-2
+Added Pin To Net: NetName=SWDCLK Pin=P2-3
+Added Pin To Net: NetName=SWO Pin=P2-4
+Added Pin To Net: NetName=RST Pin=P2-5
+Added Pin To Net: NetName=RST Pin=P2-5
+Added Pin To Net: NetName=GND Pin=P2-6
+Added Pin To Net: NetName=NetP13_1 Pin=P13-1
+Added Pin To Net: NetName=NetP13_2 Pin=P13-2
+Added Pin To Net: NetName=NetP13_3 Pin=P13-3
+Added Pin To Net: NetName=NetP13_4 Pin=P13-4
+Added Pin To Net: NetName=GND Pin=P13-5
+Added Member To Class: ClassName=U_Connector-Section Member=Component P2 PZ254R-11-06P
+Added Member To Class: ClassName=U_Connector-Section Member=Component P13 PZ254R-11-05P
