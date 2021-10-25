@@ -1,0 +1,45 @@
+Change Component Description : Designator=L1 Old Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads New Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads
+Change Component Description : Designator=L2 Old Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads New Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads
+Change Component Description : Designator=L3 Old Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads New Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads
+Change Component Description : Designator=L4 Old Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads New Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads
+Change Component Description : Designator=L5 Old Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads New Description=200O @ 100MHz 1 1A 300mO 0603 Ferrite Beads
+Change component parameters: Designator = "L6" ("L6"); Footprint = "Ind0805"; UniqueID = "\QJQTAKHD\QDINBKDN\CGEDICPV" ("\QJQTAKHD\QDINBKDN\CGEDICPV")
+Change component parameters (AddParameter): Name = "DC Resistance (DCR)"; Value = "320mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Inductance"; Value = "10uH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "microgate"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "500mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L1" ("L1"); Footprint = "MLB1608-201P1A(f)"; UniqueID = "\QJQTAKHD\NKSICRLK\LAXOPJVG" ("\QJQTAKHD\NKSICRLK\LAXOPJVG")
+Change component parameters (AddParameter): Name = "Current Rating (Max)"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR) (Max)"; Value = "300mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance @ Frequency"; Value = "200O @ 100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Meled"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L2" ("L2"); Footprint = "MLB1608-201P1A(f)"; UniqueID = "\QJQTAKHD\NKSICRLK\QGALBHTO" ("\QJQTAKHD\NKSICRLK\QGALBHTO")
+Change component parameters (AddParameter): Name = "Current Rating (Max)"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR) (Max)"; Value = "300mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance @ Frequency"; Value = "200O @ 100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Meled"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L3" ("L3"); Footprint = "MLB1608-201P1A(f)"; UniqueID = "\QJQTAKHD\NKSICRLK\AMIQCFWW" ("\QJQTAKHD\NKSICRLK\AMIQCFWW")
+Change component parameters (AddParameter): Name = "Current Rating (Max)"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR) (Max)"; Value = "300mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance @ Frequency"; Value = "200O @ 100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Meled"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L4" ("L4"); Footprint = "MLB1608-201P1A(f)"; UniqueID = "\QJQTAKHD\NKSICRLK\HTWNPHBF" ("\QJQTAKHD\NKSICRLK\HTWNPHBF")
+Change component parameters (AddParameter): Name = "Current Rating (Max)"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR) (Max)"; Value = "300mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance @ Frequency"; Value = "200O @ 100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Meled"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L5" ("L5"); Footprint = "MLB1608-201P1A(f)"; UniqueID = "\QJQTAKHD\NKSICRLK\JTIRWUTX" ("\QJQTAKHD\NKSICRLK\JTIRWUTX")
+Change component parameters (AddParameter): Name = "Current Rating (Max)"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR) (Max)"; Value = "300mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Impedance @ Frequency"; Value = "200O @ 100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Meled"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Lines"; Value = "1"; VariantName = "[No Variations]"
+Added Rule: Name=Schematic Impedance Constraint
+Added Rule: Name=Schematic Impedance Constraint_1
+Added Rule: Name=Schematic Matched Net Lengths
+Added Rule: Name=Schematic Matched Net Lengths_1
