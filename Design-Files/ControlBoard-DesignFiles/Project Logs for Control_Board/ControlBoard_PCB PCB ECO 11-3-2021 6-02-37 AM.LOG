@@ -1,0 +1,32 @@
+Added Component: Designator=J3(PHF254SMD-x)
+Add component (AddParameter): Name = "Manufacturer"; Value = "RTLECS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part no"; Value = "PHF254SMD-x"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Custom"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC_3V3 Pin=J3-1
+Added Pin To Net: NetName=VDDTXRX1 Pin=J3-2
+Added Pin To Net: NetName=VCC_3V3 Pin=J3-3
+Added Pin To Net: NetName=VDDTXRX1 Pin=J3-4
+Added Pin To Net: NetName=OPTO_IN Pin=J3-5
+Added Pin To Net: NetName=VDDTXRX2 Pin=J3-6
+Added Pin To Net: NetName=TXA_P Pin=J3-7
+Added Pin To Net: NetName=VDDTXRX2 Pin=J3-8
+Added Pin To Net: NetName=TXA_N Pin=J3-9
+Added Pin To Net: NetName=TXB_P Pin=J3-10
+Added Pin To Net: NetName=RXA_P Pin=J3-11
+Added Pin To Net: NetName=TXB_N Pin=J3-12
+Added Pin To Net: NetName=RXA_N Pin=J3-13
+Added Pin To Net: NetName=RXB_P Pin=J3-14
+Added Pin To Net: NetName=LINK0 Pin=J3-15
+Added Pin To Net: NetName=RXB_N Pin=J3-16
+Added Pin To Net: NetName=UART_IO Pin=J3-17
+Added Pin To Net: NetName=LINK1 Pin=J3-18
+Added Pin To Net: NetName=DIR Pin=J3-19
+Added Pin To Net: NetName=DIAG Pin=J3-20
+Added Pin To Net: NetName=STEP Pin=J3-21
+Added Pin To Net: NetName=VDD_5V Pin=J3-22
+Added Pin To Net: NetName=#UART_TX Pin=J3-23
+Added Pin To Net: NetName=GND Pin=J3-24
+Added Pin To Net: NetName=#UART_RX Pin=J3-25
+Added Pin To Net: NetName=GND Pin=J3-26
+Added Member To Class: ClassName=U_Connector-Section Member=Component J3 PHF254SMD-x

@@ -1,0 +1,68 @@
+Added Component: Designator=J1(PHF254SMD-x)
+Add component (AddParameter): Name = "Manufacturer"; Value = "RTLECS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part no"; Value = "PHF254SMD-x"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Custom"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J2(SK07- 111071ENL)
+Add component (AddParameter): Name = "Manufacturer"; Value = "SAK ELECTRONICS CO.,LTD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "OPERATION TEMPERATURE RANGE"; Value = "0°C TO +70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHIELD"; Value = "BRASS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "THICKNESS"; Value = "0.2mm"; VariantName = "[No Variations]"
+Added Component: Designator=J3(SK07- 111071ENL)
+Add component (AddParameter): Name = "Manufacturer"; Value = "SAK ELECTRONICS CO.,LTD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "OPERATION TEMPERATURE RANGE"; Value = "0°C TO +70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SHIELD"; Value = "BRASS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "THICKNESS"; Value = "0.2mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC_3V3 Pin=J1-1
+Added Pin To Net: NetName=VDDTXRX1 Pin=J1-2
+Added Pin To Net: NetName=VCC_3V3 Pin=J1-3
+Added Pin To Net: NetName=VDDTXRX1 Pin=J1-4
+Added Pin To Net: NetName=OPTO_IN Pin=J1-5
+Added Pin To Net: NetName=VDDTXRX2 Pin=J1-6
+Added Pin To Net: NetName=TXA_P Pin=J1-7
+Added Pin To Net: NetName=VDDTXRX2 Pin=J1-8
+Added Pin To Net: NetName=TXA_N Pin=J1-9
+Added Pin To Net: NetName=TXB_P Pin=J1-10
+Added Pin To Net: NetName=RXA_P Pin=J1-11
+Added Pin To Net: NetName=TXB_N Pin=J1-12
+Added Pin To Net: NetName=RXA_N Pin=J1-13
+Added Pin To Net: NetName=RXB_P Pin=J1-14
+Added Pin To Net: NetName=LINK0 Pin=J1-15
+Added Pin To Net: NetName=RXB_N Pin=J1-16
+Added Pin To Net: NetName=UART_IO Pin=J1-17
+Added Pin To Net: NetName=LINK1 Pin=J1-18
+Added Pin To Net: NetName=DIR Pin=J1-19
+Added Pin To Net: NetName=DIAG Pin=J1-20
+Added Pin To Net: NetName=STEP Pin=J1-21
+Added Pin To Net: NetName=VDD_5V Pin=J1-22
+Added Pin To Net: NetName=#UART_TX Pin=J1-23
+Added Pin To Net: NetName=GND Pin=J1-24
+Added Pin To Net: NetName=#UART_RX Pin=J1-25
+Added Pin To Net: NetName=GND Pin=J1-26
+Added Pin To Net: NetName=TXA_P Pin=J2-1
+Added Pin To Net: NetName=TXA_N Pin=J2-2
+Added Pin To Net: NetName=VDDTXRX1 Pin=J2-3
+Added Pin To Net: NetName=GND_ETH Pin=J2-4
+Added Pin To Net: NetName=GND_ETH Pin=J2-5
+Added Pin To Net: NetName=VDDTXRX1 Pin=J2-6
+Added Pin To Net: NetName=RXA_N Pin=J2-7
+Added Pin To Net: NetName=RXA_P Pin=J2-8
+Added Pin To Net: NetName=LINK0 Pin=J2-L3
+Added Pin To Net: NetName=NetJ2_L4 Pin=J2-L4
+Added Pin To Net: NetName=GND_ETH Pin=J2-MH1
+Added Pin To Net: NetName=GND_ETH Pin=J2-MH2
+Added Pin To Net: NetName=TXB_P Pin=J3-1
+Added Pin To Net: NetName=TXB_N Pin=J3-2
+Added Pin To Net: NetName=VDDTXRX2 Pin=J3-3
+Added Pin To Net: NetName=GND_ETH Pin=J3-4
+Added Pin To Net: NetName=GND_ETH Pin=J3-5
+Added Pin To Net: NetName=VDDTXRX2 Pin=J3-6
+Added Pin To Net: NetName=RXB_N Pin=J3-7
+Added Pin To Net: NetName=RXB_P Pin=J3-8
+Added Pin To Net: NetName=LINK1 Pin=J3-L3
+Added Pin To Net: NetName=NetJ3_L4 Pin=J3-L4
+Added Pin To Net: NetName=GND_ETH Pin=J3-MH1
+Added Pin To Net: NetName=GND_ETH Pin=J3-MH2
+Added Member To Class: ClassName=U_Connector_Section Member=Component J1 PHF254SMD-x
+Added Member To Class: ClassName=U_Connector_Section Member=Component J2 SK07-111071ENL*
+Added Member To Class: ClassName=U_Connector_Section Member=Component J3 SK07-111071ENL*
