@@ -1,8 +1,0 @@
-Removed Member From Class: ClassName=U_MCU-Power Member=C43
-Removed Member From Class: ClassName=U_Controller-Part-1 Member=C79
-Removed Member From Class: ClassName=U_Controller-Part-1 Member=D1
-Change Component Description : Designator=C47 Old Description=10V 22uF -55?~+125? 6O 100kHz ±10% CASE-A_3216 Tantalum Capacitors ROHS New Description=10V 22uF -55?~+125? 6O 100kHz ±10% CASE-A_3216 Tantalum Capacitors ROHS
-
-Added Member To Class: ClassName=U_MCU-Power Member=Component C47 22uF
-Added Member To Class: ClassName=U_Controller-Part-1 Member=Component LED1 16-213/GHC-YR1S1/3T
-Added Member To Class: ClassName=U_Controller-Part-1 Member=Component LED2 16-213/GHC-YR1S1/3T

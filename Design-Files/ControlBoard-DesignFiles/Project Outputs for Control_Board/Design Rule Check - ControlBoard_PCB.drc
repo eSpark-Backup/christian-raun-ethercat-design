@@ -1,15 +1,15 @@
 Protel Design System Design Rule Check
-PCB File : E:\Git\ChrisitanRaun-AnnanasMotor\Design-Files\ControlBoard-DesignFiles\ControlBoard_PCB.PcbDoc
+PCB File : C:\Users\eSpark-37\Documents\GitHub\ChrisitanRaun-AnnanasMotor\Design-Files\ControlBoard-DesignFiles\ControlBoard_PCB.PcbDoc
 Date     : 11/4/2021
-Time     : 2:14:24 AM
+Time     : 11:36:56 PM
+
+Processing Rule : Clearance Constraint (Gap=7mil) (InDifferentialPairClass('EtherCAT_B_Lines')),(All)
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=7mil) (InDifferentialPairClass('EtherCAT_A_Lines')),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=7mil) (All),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=7mil) (InDifferentialPairClass('EtherCAT_B_Lines')),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -51,4 +51,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:00
