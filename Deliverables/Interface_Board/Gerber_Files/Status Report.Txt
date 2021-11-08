@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Interface_Board.PrjPcb]
+   Generated File[InterfaceBoard_PCB.TXT]
+   Generated File[InterfaceBoard_PCB.LDP]
+   Generated File[InterfaceBoard_PCB.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 9:53:10 PM On 11/7/2021
