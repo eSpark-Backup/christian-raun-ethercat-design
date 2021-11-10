@@ -4,14 +4,14 @@ E:\Git\ChrisitanRaun-AnnanasMotor\Design-Files\ControlBoard-DesignFiles\Project 
 ========================================================================================================================
 File Design Information:
 
-Date:       07/11/21
-Time:       21:01
-Revision:   f8a6fafa537b2b3e0ae135d8056916e21efebce2
+Date:       10/11/21
+Time:       05:12
+Revision:   44c76183efc9b3077ddcd17dcfe1463b46855a3e
 Variant:    No variations
 Units used: mil
 
 Designator Comment                            Layer       Footprint                          Center-X(mil) Center-Y(mil) Rotation Description                                               Ref-X(mil) Ref-Y(mil) Pad-X(mil) Pad-Y(mil) 
-J3         PHF254SMD-x                        TopLayer    PHF254SMD-x                        242.331       580.000       270      "P=2.54mm Female Headers,SMD,ROHS"                        242.331    580.000    138.000    1180.000   
+J3         95278-101A26LF                     TopLayer    95278-101A26LF                     242.331       580.000       270      "CONN HEADER SMD 26POS 2.54MM"                            242.331    580.000    138.000    1180.000   
 U3         TXB0102DCUT                        BottomLayer TXB0102DCUT                        293.024       79.472        180      "IC TRNSLTR BIDIRECTIONAL US8"                            293.024    79.472     354.048    109.000    
 U1         LAN9255/ZMX019                     TopLayer    LAN9255/ZMX019                     917.669       686.118       90       "IC ETHERCAT SLAVE CONTROLLER"                            917.669    686.118    673.575    382.969    
 L6         MGFL2012F100MT-LF                  BottomLayer Ind0805                            591.630       817.000       360      "IND SMD 10uH 500mA 0805"                                 591.630    817.000    552.260    817.000    

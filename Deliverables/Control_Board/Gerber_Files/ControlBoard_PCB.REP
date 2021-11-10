@@ -2,6 +2,207 @@
 FileName = ControlBoard_PCB.GBR
 AutoAperture = True
 *************************************************************
+Generating : Bottom Solder
+      File : ControlBoard_PCB.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D30
+    D36
+    D37
+    D41
+    D42
+    D43
+    D44
+    D45
+    D201
+    D202
+    D203
+    D204
+    D205
+    D206
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : ControlBoard_PCB.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : ControlBoard_PCB.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : ControlBoard_PCB.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : ControlBoard_PCB.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : ControlBoard_PCB.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D207
+    D208
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : ControlBoard_PCB.GG1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D207
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : ControlBoard_PCB.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D22
+    D26
+    D27
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : ControlBoard_PCB.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D22
+    D26
+    D27
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+*************************************************************
+
+*************************************************************
 Generating : Mechanical 2
       File : ControlBoard_PCB.GM2
 
@@ -101,56 +302,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Paste
-      File : ControlBoard_PCB.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D22
-    D26
-    D27
-    D107
-    D108
-    D109
-    D110
-    D111
-    D112
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : ControlBoard_PCB.GPT
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-*************************************************************
-
-*************************************************************
 Generating : Bottom Overlay
       File : ControlBoard_PCB.GBO
 
@@ -164,28 +315,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Pad Master
-      File : ControlBoard_PCB.GPB
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D22
-    D26
-    D27
-    D107
-    D108
-    D109
-    D110
-    D111
-    D112
-*************************************************************
-
-*************************************************************
 Generating : Bottom Layer
       File : ControlBoard_PCB.GBL
 
@@ -196,7 +325,7 @@ Generating : Bottom Layer
 
 Used DCodes :
     D10
-    D15
+    D16
     D22
     D26
     D27
@@ -302,120 +431,5 @@ Used DCodes :
     D198
     D199
     D200
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : ControlBoard_PCB.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D29
-    D36
-    D37
-    D41
-    D42
-    D43
-    D44
-    D45
-    D201
-    D202
-    D203
-    D204
-    D205
-    D206
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : ControlBoard_PCB.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : ControlBoard_PCB.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : ControlBoard_PCB.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-*************************************************************
-
-*************************************************************
-Generating : Drill Guide
-      File : ControlBoard_PCB.GG1
-
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Guide
-
-
-Used DCodes :
-    D207
 *************************************************************
 
