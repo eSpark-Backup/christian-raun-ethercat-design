@@ -4,13 +4,14 @@ E:\Git\ChrisitanRaun-AnnanasMotor\Design-Files\InterfaceBoard-DesignFiles\Projec
 ========================================================================================================================
 File Design Information:
 
-Date:       07/11/21
-Time:       21:35
-Revision:   f8a6fafa537b2b3e0ae135d8056916e21efebce2
+Date:       16/11/21
+Time:       15:04
+Revision:   8b77713f04836fd086966091fae662e8af337871
 Variant:    No variations
 Units used: mil
 
 "Designator","Comment","Layer","Footprint","Center-X(mil)","Center-Y(mil)","Rotation","Description","Ref-X(mil)","Ref-Y(mil)","Pad-X(mil)","Pad-Y(mil)"
+"P1","C37208","TopLayer","C37208","907.000","-145.000","360","Straight 1 6 2.54mm Black Brass Plugin,P=2.54mm Pin Headers ROHS","907.000","-145.000","657.000","-145.000"
 "J3","SK07-111071ENL*","TopLayer","SK07-_111071ENL","730.095","1035.000","270","10/100 BASE-TX RJ45 WITH LEDS
 INTEGRATED MAGNETICS CONNECTOR","730.095","1035.000","886.000","1210.000"
 "J2","SK07-111071ENL*","TopLayer","SK07-_111071ENL","730.095","302.924","270","10/100 BASE-TX RJ45 WITH LEDS
@@ -53,14 +54,13 @@ INTEGRATED MAGNETICS CONNECTOR","730.095","302.924","886.000","477.924"
 "P6","Test Point","TopLayer","TEST_POINT","-120.000","1285.000","360","Test Point ON","-120.000","1285.000","-120.000","1285.000"
 "P5","Test Point","TopLayer","TEST_POINT","1368.000","-5.000","90","Test Point ON","1368.000","-5.000","1368.000","-5.000"
 "P4","Test Point","TopLayer","TEST_POINT","1368.000","87.500","180","Test Point ON","1368.000","87.500","1368.000","87.500"
-"P3","826629-2","TopLayer","HDR1X2","413.000","-146.000","180","CONN HEADER VERT 2POS 2.54MM","463.000","-146.000","463.000","-146.000"
-"P2","826629-2","TopLayer","HDR1X2","198.000","-146.000","360","CONN HEADER VERT 2POS 2.54MM","148.000","-146.000","148.000","-146.000"
-"P1","MTP125-1104S1","TopLayer","HDR1X4","918.000","-147.000","360","2.54mm Straight 1 4 Header TH,P=2.54mm Pin Headers ROHS","768.000","-147.000","768.000","-147.000"
+"P3","826629-2","TopLayer","HDR1X2","413.000","-145.000","180","CONN HEADER VERT 2POS 2.54MM","463.000","-145.000","463.000","-145.000"
+"P2","826629-2","TopLayer","HDR1X2","198.000","-145.000","360","CONN HEADER VERT 2POS 2.54MM","148.000","-145.000","148.000","-145.000"
 "L10","33µH","TopLayer","ETQ-P4M330YFN","24.173","423.000","360","FIXED IND 33UH 2.5A 189.2MOHM SM","24.173","423.000","-90.000","423.000"
 "D3","MSK4010","TopLayer","MSK4010","229.000","419.000","270","SOD-523 Schottky Barrier Diodes (SBD) ROHS","229.000","419.000","229.000","442.622"
 "D2","PMEG3030EP,115","BottomLayer","PMEG3030EP,115","-75.000","553.000","360","Diode Schottky 30V 3A 2-Pin SOD-128 T/R","-75.000","553.000","-161.614","553.000"
 "SB4","Solder Bridge","BottomLayer","Solder_Bridge","1246.000","272.000","0","Solder Bridge ON","1246.000","272.000","1216.000","272.000"
-"C58","1000pF","BottomLayer","Cap1206","923.000","-15.000","360","1206 1 nF 2 kV ±10 % Tolerance X7R SMT Multilayer Ceramic Capacitor","923.000","-15.000","873.000","-15.000"
+"C58","1000pF","BottomLayer","Cap1206","921.000","2.000","360","1206 1 nF 2 kV ±10 % Tolerance X7R SMT Multilayer Ceramic Capacitor","921.000","2.000","871.000","2.000"
 "C57","22nF","BottomLayer","Cap0603","781.000","1054.000","180","CAP CER 0.022UF 100V X7R 0603","781.000","1054.000","811.000","1054.000"
 "C56","22nF","BottomLayer","Cap0603","787.000","312.000","180","CAP CER 0.022UF 100V X7R 0603","787.000","312.000","817.000","312.000"
 "C55","10pF","BottomLayer","Cap0603","759.000","940.000","90","CAP CER 10PF 50V C0G/NP0 0603","759.000","940.000","759.000","910.000"
