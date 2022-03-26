@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=TXA_N Pin=U1-103
+Removed Pin From Net: NetName=TXA_P Pin=U1-104
+Removed Pin From Net: NetName=RXA_N Pin=U1-105
+Removed Pin From Net: NetName=RXA_P Pin=U1-106
+Added Pin To Net: NetName=RXA_N Pin=U1-103
+Added Pin To Net: NetName=RXA_P Pin=U1-104
+Added Pin To Net: NetName=TXA_N Pin=U1-105
+Added Pin To Net: NetName=TXA_P Pin=U1-106
+Added Room: Name=U_Connector-Section
+Added Room: Name=U_Controller-Part-1
+Added Room: Name=U_Controller-Part-2
+Added Room: Name=U_Encoder-Section
+Added Room: Name=U_Level-Shifter-Section
