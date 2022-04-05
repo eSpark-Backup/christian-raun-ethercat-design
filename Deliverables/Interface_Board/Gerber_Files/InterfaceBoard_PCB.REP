@@ -2,30 +2,80 @@
 FileName = InterfaceBoard_PCB.GBR
 AutoAperture = True
 *************************************************************
-Generating : Drill Drawing
-      File : InterfaceBoard_PCB.GD1
+Generating : Bottom Overlay
+      File : InterfaceBoard_PCB.GBO
 
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Drawing
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
-    D178
-    D179
+    D10
+    D11
+    D175
+    D176
 *************************************************************
 
 *************************************************************
-Generating : Drill Guide
-      File : InterfaceBoard_PCB.GG1
+Generating : Top Pad Master
+      File : InterfaceBoard_PCB.GPT
 
-    Adding Drill Pair : Top Layer-Bottom Layer
+    Adding Layer      : Top Layer
 
-    Adding Layer      : Drill Guide
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D178
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : InterfaceBoard_PCB.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
 *************************************************************
 
 *************************************************************
@@ -40,9 +90,11 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D32
+    D31
+    D36
     D37
-    D39
+    D47
+    D48
     D49
     D50
     D51
@@ -50,9 +102,8 @@ Used DCodes :
     D53
     D54
     D55
-    D56
-    D57
-    D58
+    D162
+    D163
     D164
     D165
     D166
@@ -64,7 +115,33 @@ Used DCodes :
     D172
     D173
     D174
-    D175
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : InterfaceBoard_PCB.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D177
+    D178
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : InterfaceBoard_PCB.GG1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D177
 *************************************************************
 
 *************************************************************
@@ -79,6 +156,7 @@ Generating : Top Solder
 
 
 Used DCodes :
+    D31
     D32
     D33
     D34
@@ -103,24 +181,168 @@ Used DCodes :
     D53
     D54
     D55
-    D56
-    D57
-    D58
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : InterfaceBoard_PCB.GBO
+Generating : Top Overlay
+      File : InterfaceBoard_PCB.GTO
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
     D10
     D11
+    D12
     D13
-    D176
-    D177
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : InterfaceBoard_PCB.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D16
+    D21
+    D56
+    D57
+    D58
+    D59
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
+    D115
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+    D123
+    D124
+    D125
+    D126
+    D127
+    D128
+    D129
+    D130
+    D131
+    D132
+    D133
+    D134
+    D135
+    D136
+    D137
+    D138
+    D139
+    D140
+    D141
+    D142
+    D143
+    D144
+    D145
+    D146
+    D147
+    D148
+    D149
+    D150
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D161
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : InterfaceBoard_PCB.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D21
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+    D123
+    D124
+    D125
+    D126
+    D127
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : InterfaceBoard_PCB.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D21
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+    D123
+    D124
+    D125
+    D126
+    D127
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 2
+      File : InterfaceBoard_PCB.GM2
+
+    Adding Layer      : Mechanical 2
+
+
+Used DCodes :
+    D10
 *************************************************************
 
 *************************************************************
@@ -149,7 +371,9 @@ Used DCodes :
     D28
     D29
     D30
-    D31
+    D56
+    D57
+    D58
     D59
     D60
     D61
@@ -207,232 +431,5 @@ Used DCodes :
     D113
     D114
     D115
-    D116
-    D117
-    D118
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 2
-      File : InterfaceBoard_PCB.GM2
-
-    Adding Layer      : Mechanical 2
-
-
-Used DCodes :
-    D10
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : InterfaceBoard_PCB.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D16
-    D21
-    D59
-    D60
-    D61
-    D62
-    D110
-    D111
-    D112
-    D113
-    D114
-    D115
-    D116
-    D117
-    D118
-    D119
-    D120
-    D121
-    D122
-    D123
-    D124
-    D125
-    D126
-    D127
-    D128
-    D129
-    D130
-    D131
-    D132
-    D133
-    D134
-    D135
-    D136
-    D137
-    D138
-    D139
-    D140
-    D141
-    D142
-    D143
-    D144
-    D145
-    D146
-    D147
-    D148
-    D149
-    D150
-    D151
-    D152
-    D153
-    D154
-    D155
-    D156
-    D157
-    D158
-    D159
-    D160
-    D161
-    D162
-    D163
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : InterfaceBoard_PCB.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D16
-    D21
-    D119
-    D120
-    D121
-    D122
-    D123
-    D124
-    D125
-    D126
-    D127
-    D128
-    D129
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : InterfaceBoard_PCB.GPT
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D110
-    D111
-    D112
-    D113
-    D114
-    D115
-    D116
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : InterfaceBoard_PCB.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Bottom Pad Master
-      File : InterfaceBoard_PCB.GPB
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D16
-    D21
-    D110
-    D111
-    D112
-    D113
-    D114
-    D115
-    D116
-    D119
-    D120
-    D121
-    D122
-    D123
-    D124
-    D125
-    D126
-    D127
-    D128
-    D129
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : InterfaceBoard_PCB.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
 *************************************************************
 
