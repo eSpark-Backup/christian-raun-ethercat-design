@@ -1,0 +1,78 @@
+Protel Design System Design Rule Check
+PCB File : E:\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_PCB.PcbDoc
+Date     : 4/22/2022
+Time     : 4:26:44 PM
+
+WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
+   Polygon named: Polygon_2 In net GND On Bottom Layer
+   Polygon named: Polygon_1 In net GND On Top Layer
+
+Processing Rule : Clearance Constraint (Gap=7mil) (InDifferentialPairClass('EtherCAT_A_Lines')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=7mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=7mil) (InDifferentialPairClass('EtherCAT_B_Lines')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+   Violation between Modified Polygon: Polygon Shelved  (Polygon_1) on Top Layer 
+   Violation between Modified Polygon: Polygon Shelved  (Polygon_2) on Bottom Layer 
+Rule Violations :2
+
+Processing Rule : Width Constraint (Min=8mil) (Max=40mil) (Preferred=22mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=1000mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+   Violation between Net Antennae: Via (0mil,1220.472mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (1220.472mil,1220.472mil) from Top Layer to Bottom Layer 
+Rule Violations :2
+
+Processing Rule : Matched Lengths(Tolerance=20mil) (InDifferentialPairClass('EtherCAT_A_Lines'))
+   Violation between Matched Net Lengths: Differential Pair RXA Actual Length Difference against diff pair TXA is: 145.466mil, Length Tolerance : 20mil.
+   Violation between Matched Net Lengths: Differential Pair TXA Actual Length Difference against diff pair RXA is: 145.466mil, Length Tolerance : 20mil.
+   Violation between Matched Net Lengths: Between Net RXA_N And Net TXA_N Length:1092.622mil is not within 20mil tolerance of Length:1305.965mil (193.343mil short) 
+   Violation between Matched Net Lengths: Between Net RXA_P And Net TXA_N Length:1199.321mil is not within 20mil tolerance of Length:1305.965mil (86.644mil short) 
+   Violation between Matched Net Lengths: Between Net RXA_P And Net TXA_P Length:1199.321mil is not within 20mil tolerance of Length:1276.91mil (57.589mil short) 
+Rule Violations :5
+
+Processing Rule : Matched Lengths(Tolerance=20mil) (InDifferentialPairClass('EtherCAT_B_Lines'))
+   Violation between Matched Net Lengths: Differential Pair RXB Actual Length Difference against diff pair TXB is: 270.221mil, Length Tolerance : 20mil.
+   Violation between Matched Net Lengths: Differential Pair TXB Actual Length Difference against diff pair RXB is: 270.221mil, Length Tolerance : 20mil.
+   Violation between Matched Net Lengths: Between Net RXB_N And Net TXB_N Length:1218.553mil is not within 20mil tolerance of Length:1441.473mil (202.92mil short) 
+   Violation between Matched Net Lengths: Between Net RXB_P And Net TXB_N Length:1218.553mil is not within 20mil tolerance of Length:1470.167mil (231.614mil short) 
+   Violation between Matched Net Lengths: Between Net RXB_P And Net TXB_P Length:1152.646mil is not within 20mil tolerance of Length:1470.167mil (297.521mil short) 
+Rule Violations :5
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 14
+Waived Violations : 0
+Time Elapsed        : 00:00:02
