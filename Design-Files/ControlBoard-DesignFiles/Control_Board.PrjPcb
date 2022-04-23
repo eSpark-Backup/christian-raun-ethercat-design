@@ -302,7 +302,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document16]
-DocumentPath=Gerber Files.Cam
+DocumentPath=..\..\Deliverables\Control_Board\Gerber_Files\Gerber Files.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -319,7 +319,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document17]
-DocumentPath=NC Drill Files.Cam
+DocumentPath=..\..\Deliverables\Control_Board\Gerber_Files\NC Drill Files.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -413,14 +413,6 @@ DItemRevisionGUID=
 
 [GeneratedDocument20]
 DocumentPath=Project Outputs for Control_Board\Design Rule Check - ControlBoard_PCB.html
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for Control_Board\Pick Place for ControlBoard_PCB.csv
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for Control_Board\Pick Place for ControlBoard_PCB.txt
 DItemRevisionGUID=
 
 [Configuration1]
