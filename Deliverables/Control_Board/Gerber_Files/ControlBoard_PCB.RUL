@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: D:\Github\ChristianRaun-EthercatDesign\Design-Files\ControlBoard-DesignFiles\ControlBoard_PCB.PcbDoc
+DRC Rules Export File for PCB: C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\ControlBoard-DesignFiles\ControlBoard_PCB.PcbDoc
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_1|Scope=Board|Minimum=4.00
 RuleKind=Clearance|RuleName=Clearance_2|Scope=Board|Minimum=7.00
 RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=7.00
