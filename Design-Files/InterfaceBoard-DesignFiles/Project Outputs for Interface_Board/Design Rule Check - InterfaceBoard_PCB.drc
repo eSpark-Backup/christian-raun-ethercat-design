@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : E:\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_PCB.PcbDoc
+PCB File : C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_PCB.PcbDoc
 Date     : 4/23/2022
-Time     : 2:30:49 PM
+Time     : 3:06:25 PM
 
 Processing Rule : Clearance Constraint (Gap=7mil) (InDifferentialPairClass('EtherCAT_B_Lines')),(All)
 Rule Violations :0
@@ -46,35 +46,28 @@ Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
 Processing Rule : Matched Lengths(Tolerance=25.4mil) (InNetClass('EtherCAT_B'))
-   Violation between Matched Net Lengths: Between Net RXB_N And Net TXB_N Length:1218.553mil is not within 25.4mil tolerance of Length:1441.473mil (197.52mil short) 
-   Violation between Matched Net Lengths: Between Net RXB_P And Net TXB_N Length:1218.553mil is not within 25.4mil tolerance of Length:1470.167mil (226.214mil short) 
-   Violation between Matched Net Lengths: Between Net RXB_P And Net TXB_P Length:1152.646mil is not within 25.4mil tolerance of Length:1470.167mil (292.121mil short) 
-Rule Violations :3
+   Violation between Matched Net Lengths: Between Net RXB_P And Net TXB_P Length:1152.646mil is not within 25.4mil tolerance of Length:1411.255mil (233.209mil short) 
+Rule Violations :1
 
 Processing Rule : Matched Lengths(Tolerance=25.4mil) (InNetClass('EtherCAT_A'))
-   Violation between Matched Net Lengths: Between Net RXA_N And Net TXA_N Length:1165.812mil is not within 25.4mil tolerance of Length:1305.965mil (114.754mil short) 
-   Violation between Matched Net Lengths: Between Net RXA_P And Net TXA_N Length:1166.638mil is not within 25.4mil tolerance of Length:1305.965mil (113.927mil short) 
-   Violation between Matched Net Lengths: Between Net RXA_P And Net TXA_P Length:1166.638mil is not within 25.4mil tolerance of Length:1276.91mil (84.872mil short) 
-Rule Violations :3
+   Violation between Matched Net Lengths: Between Net RXA_N And Net TXA_P Length:1276.91mil is not within 25.4mil tolerance of Length:1316.623mil (14.313mil short) 
+   Violation between Matched Net Lengths: Between Net RXA_P And Net TXA_N Length:1269.152mil is not within 25.4mil tolerance of Length:1305.965mil (11.414mil short) 
+Rule Violations :2
 
 Processing Rule : Matched Lengths(Tolerance=25.4mil) (InDifferentialPairClass('EtherCAT_B_Lines'))
-   Violation between Matched Net Lengths: Differential Pair RXB Actual Length Difference against diff pair TXB is: 270.221mil, Length Tolerance : 25.4mil.
-   Violation between Matched Net Lengths: Differential Pair TXB Actual Length Difference against diff pair RXB is: 270.221mil, Length Tolerance : 25.4mil.
-   Violation between Matched Net Lengths: Between Net RXB_N And Net TXB_N Length:1218.553mil is not within 25.4mil tolerance of Length:1441.473mil (197.52mil short) 
-   Violation between Matched Net Lengths: Between Net RXB_P And Net TXB_N Length:1218.553mil is not within 25.4mil tolerance of Length:1470.167mil (226.214mil short) 
-   Violation between Matched Net Lengths: Between Net RXB_P And Net TXB_P Length:1152.646mil is not within 25.4mil tolerance of Length:1470.167mil (292.121mil short) 
-Rule Violations :5
+   Violation between Matched Net Lengths: Differential Pair RXB Actual Length Difference against diff pair TXB is: 128.351mil, Length Tolerance : 25.4mil.
+   Violation between Matched Net Lengths: Differential Pair TXB Actual Length Difference against diff pair RXB is: 128.351mil, Length Tolerance : 25.4mil.
+   Violation between Matched Net Lengths: Between Net RXB_P And Net TXB_P Length:1152.646mil is not within 25.4mil tolerance of Length:1411.255mil (233.209mil short) 
+Rule Violations :3
 
 Processing Rule : Matched Lengths(Tolerance=25.4mil) (InNetClass('EtherCAT_B'))
-   Violation between Matched Net Lengths: Between Net RXB_N And Net TXB_N Length:1218.553mil is not within 25.4mil tolerance of Length:1441.473mil (197.52mil short) 
-   Violation between Matched Net Lengths: Between Net RXB_P And Net TXB_N Length:1218.553mil is not within 25.4mil tolerance of Length:1470.167mil (226.214mil short) 
-   Violation between Matched Net Lengths: Between Net RXB_P And Net TXB_P Length:1152.646mil is not within 25.4mil tolerance of Length:1470.167mil (292.121mil short) 
-Rule Violations :3
+   Violation between Matched Net Lengths: Between Net RXB_P And Net TXB_P Length:1152.646mil is not within 25.4mil tolerance of Length:1411.255mil (233.209mil short) 
+Rule Violations :1
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 14
+Violations Detected : 7
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
