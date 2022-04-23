@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=RXA_N Pin=U1-103
+Removed Pin From Net: NetName=RXA_P Pin=U1-104
+Removed Pin From Net: NetName=TXA_N Pin=U1-105
+Removed Pin From Net: NetName=TXA_P Pin=U1-106
+Removed Pin From Net: NetName=TXB_P Pin=U1-115
+Removed Pin From Net: NetName=TXB_N Pin=U1-116
+Removed Pin From Net: NetName=RXB_P Pin=U1-118
+Removed Pin From Net: NetName=RXB_N Pin=U1-119
+Added Pin To Net: NetName=TXA_N Pin=U1-103
+Added Pin To Net: NetName=TXA_P Pin=U1-104
+Added Pin To Net: NetName=RXA_N Pin=U1-105
+Added Pin To Net: NetName=RXA_P Pin=U1-106
+Added Pin To Net: NetName=RXB_P Pin=U1-115
+Added Pin To Net: NetName=RXB_N Pin=U1-116
+Added Pin To Net: NetName=TXB_P Pin=U1-118
+Added Pin To Net: NetName=TXB_N Pin=U1-119
