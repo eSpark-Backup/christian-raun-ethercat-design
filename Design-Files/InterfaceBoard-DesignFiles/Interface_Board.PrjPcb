@@ -251,86 +251,90 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.DRR
+DocumentPath=Project Outputs for Interface_Board\Design Rule Check - InterfaceBoard_PCB.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.EXTREP
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GBL
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GBO
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GBP
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GBS
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GD1
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GG1
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GM2
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GPB
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GPT
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GTL
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GTO
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GTP
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GTS
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.LDP
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.REP
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.RUL
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.REP
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.TXT
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for Interface_Board\Pick Place for InterfaceBoard_PCB.csv
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_PCB.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument21]
+DocumentPath=Project Outputs for Interface_Board\Pick Place for InterfaceBoard_PCB.csv
+DItemRevisionGUID=
+
+[GeneratedDocument22]
 DocumentPath=Project Outputs for Interface_Board\Pick Place for InterfaceBoard_PCB.txt
 DItemRevisionGUID=
 
@@ -492,7 +496,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP LaserJet Pro MFP M127fn[58226E]
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
