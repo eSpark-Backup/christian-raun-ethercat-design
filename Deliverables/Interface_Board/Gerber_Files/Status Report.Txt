@@ -1,12 +1,11 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [Interface_Board.PrjPcb]
-   Generated File[InterfaceBoard_PCB.TXT]
-   Generated File[InterfaceBoard_PCB.LDP]
-   Generated File[InterfaceBoard_PCB.DRR]
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [Interface_Board.PrjPcb]
+   Generated File[Pick Place for InterfaceBoard_PCB.txt]
+   Generated File[Pick Place for InterfaceBoard_PCB.csv]
 
 
-Files Generated   : 3
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 11:42:44 PM On 4/23/2022
+Finished Output Generation At 4:25:51 PM On 4/27/2022
