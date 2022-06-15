@@ -1,16 +1,17 @@
 Altium Designer Pick and Place Locations
-C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\Project Outputs for Interface_Board\Pick Place for InterfaceBoard_PCB.csv
+E:\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\Project Outputs for Interface_Board\Pick Place for InterfaceBoard_PCB.csv
 
 ========================================================================================================================
 File Design Information:
 
-Date:       27/04/22
-Time:       16:04
-Revision:   f39c2cc55d88c2f7cb9cbb1ded93d0bc44d8073d
+Date:       15/06/22
+Time:       10:18
+Revision:   9295c79fcdb192117df1513a415ea1c092a263ba
 Variant:    No variations
 Units used: mil
 
 "Designator","Layer","Center-X(mil)","Center-Y(mil)","Rotation","Ref-X(mil)","Ref-Y(mil)","Pad-X(mil)","Pad-Y(mil)"
+"D4","BottomLayer","1358,000mil","1222,780mil","90","1358,000mil","1222,780mil","1358,000mil","1159,000mil"
 "C48","BottomLayer","755,000mil","479,689mil","90","755,000mil","479,689mil","755,000mil","449,689mil"
 "U3","BottomLayer","1240,543mil","534,898mil","180","1240,543mil","534,898mil","1337,000mil","623,480mil"
 "C#10","TopLayer","1243,000mil","496,000mil","270","1243,000mil","496,000mil","1243,000mil","624,937mil"
@@ -79,7 +80,6 @@ Units used: mil
 "C49","BottomLayer","811,000mil","1234,000mil","90","811,000mil","1234,000mil","811,000mil","1204,000mil"
 "C45","TopLayer","244,000mil","728,738mil","270","244,000mil","728,738mil","244,000mil","768,738mil"
 "C#3","BottomLayer","1389,000mil","451,000mil","270","1389,000mil","451,000mil","1389,000mil","481,000mil"
-"D4","BottomLayer","1362,000mil","1202,000mil","270","1362,000mil","1202,000mil","1362,000mil","1265,780mil"
 "C#12","BottomLayer","1370,000mil","296,000mil","270","1370,000mil","296,000mil","1370,000mil","326,000mil"
 "C#11","BottomLayer","1322,000mil","769,000mil","0","1322,000mil","769,000mil","1292,000mil","769,000mil"
 "C#2","BottomLayer","1190,000mil","356,000mil","180","1190,000mil","356,000mil","1220,000mil","356,000mil"
