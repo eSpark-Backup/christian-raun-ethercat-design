@@ -4,9 +4,9 @@ E:\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\Project 
 ========================================================================================================================
 File Design Information:
 
-Date:       15/06/22
-Time:       10:18
-Revision:   9295c79fcdb192117df1513a415ea1c092a263ba
+Date:       03/08/22
+Time:       13:55
+Revision:   95b958c76c4e34c6805cc58ae73be5814e9bc0c6
 Variant:    No variations
 Units used: mil
 
@@ -15,7 +15,7 @@ D4         BottomLayer 1358,000mil   1222,780mil   90       1358,000mil 1222,780
 C48        BottomLayer 755,000mil    479,689mil    90       755,000mil  479,689mil  755,000mil  449,689mil  
 U3         BottomLayer 1240,543mil   534,898mil    180      1240,543mil 534,898mil  1337,000mil 623,480mil  
 C#10       TopLayer    1243,000mil   496,000mil    270      1243,000mil 496,000mil  1243,000mil 624,937mil  
-SB1        BottomLayer 1101,000mil   278,000mil    270      1101,000mil 278,000mil  1101,000mil 308,000mil  
+SB1        BottomLayer 1074,000mil   305,977mil    180      1074,000mil 305,977mil  1104,000mil 305,977mil  
 R#7        BottomLayer 1300,000mil   294,000mil    90       1300,000mil 294,000mil  1300,000mil 244,000mil  
 R#6        BottomLayer 1331,000mil   837,000mil    180      1331,000mil 837,000mil  1381,000mil 837,000mil  
 R#5        BottomLayer 1191,000mil   852,000mil    0        1191,000mil 852,000mil  1161,000mil 852,000mil  
@@ -38,7 +38,7 @@ U7         TopLayer    49,047mil     659,000mil    0        49,047mil   659,000m
 R#3        BottomLayer 1340,000mil   1085,000mil   180      1340,000mil 1085,000mil 1370,000mil 1085,000mil 
 L1         BottomLayer -68,000mil    991,000mil    180      -68,000mil  991,000mil  -39,457mil  991,000mil  
 Q2         BottomLayer 1302,945mil   915,181mil    180      1302,945mil 915,181mil  1362,000mil 914,000mil  
-D5         BottomLayer 1283,000mil   142,000mil    0        1283,000mil 142,000mil  1198,354mil 142,000mil  
+D5         BottomLayer 1244,000mil   127,000mil    0        1244,000mil 127,000mil  1159,354mil 127,000mil  
 R39        BottomLayer 521,818mil    1364,008mil   180      521,818mil  1364,008mil 551,818mil  1364,008mil 
 R38        BottomLayer 755,000mil    868,499mil    270      755,000mil  868,499mil  755,000mil  898,499mil  
 R36        BottomLayer 811,000mil    974,000mil    90       811,000mil  974,000mil  811,000mil  944,000mil  
@@ -71,7 +71,7 @@ D2         BottomLayer -75,000mil    553,000mil    0        -75,000mil  553,000m
 R#         BottomLayer 1101,000mil   385,000mil    270      1101,000mil 385,000mil  1101,000mil 415,000mil  
 C58        BottomLayer 978,000mil    3,000mil      0        978,000mil  3,000mil    928,000mil  3,000mil    
 C57        BottomLayer 784,000mil    1052,000mil   180      784,000mil  1052,000mil 814,000mil  1052,000mil 
-C56        BottomLayer 786,328mil    291,689mil    180      786,328mil  291,689mil  816,328mil  291,689mil  
+C56        BottomLayer 783,000mil    295,000mil    180      783,000mil  295,000mil  813,000mil  295,000mil  
 C55        BottomLayer 812,328mil    869,499mil    270      812,328mil  869,499mil  812,328mil  899,499mil  
 C54        BottomLayer 812,328mil    109,000mil    270      812,328mil  109,000mil  812,328mil  139,000mil  
 C52        BottomLayer 755,000mil    217,000mil    90       755,000mil  217,000mil  755,000mil  187,000mil  
