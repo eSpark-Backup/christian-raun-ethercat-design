@@ -1,0 +1,547 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD22\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">5/5/2023</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">1:06:00 AM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc" class="file"><acronym title="C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc">C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">61</td></tr>
+</table>
+</td>
+</table><a name="IDUR1DEXP2XCNUDT3XQQAQISHH3GXU5XNPZTW1MTNQYKV4M3BFEPGF"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2TWHYSHNQHKCHIP0GPPYGOIPZPTEWFIUFRN5VRJD00BKLXFQ1KXJ">Clearance Constraint (Gap=7mil) (InDifferentialPairClass('EtherCAT_A_Lines')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVUXQVVSUZZZZEZ4CWD5S4U0U5EVQSVYVRBPYEXGE42NPKCKXZBIG">Clearance Constraint (Gap=7mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAOZFYTVWGMOHK4FM1L1MMEY5OGISYW1HUNDH0ENYXM2RI3BPUVKO">Clearance Constraint (Gap=7mil) (InDifferentialPairClass('EtherCAT_B_Lines')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1X2SMMODLCE2CH51OEZ2KDX0ECZ1B4SJJWB2MOFRVRQTZX14KLL">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKQ1OYCKHNICDMGKJKNYKEZQGJDFBYWEADAILQXKZIEFKF2GBTJTD">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">19</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2KGW2BO5JWLWEPLVIMJC0MTIMIFC1KPVSGPTUJSXWEVBE1M1GAP">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1KQH40QYDQBPCISHQXIWLIFZFCM2DCDOFGJ5PUKMIUUBBKBOOZJC">Width Constraint (Min=8mil) (Max=50mil) (Preferred=22mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDV3VFN2LLJKQKII1F5FDKX01QLI2WBBPQZ4JCUCC0V3DH4VAKRKDH">Power Plane Connect Rule(Relief Connect )(Expansion=15mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">31</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDQBCTHCPBTUK1RVE4CJTI3OLPJUONEH4W2KXXWHZQVWSEZB5IDJB">Hole Size Constraint (Min=1mil) (Max=1000mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHZYQ2FFQBSLBFWO3BIXBNQ0ADM24FZVDC1HVMNDWHIYRZZ13RZWF">Hole To Hole Clearance (Gap=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1IHTWBICAEQMMM44DFQID5RLPZTMMVXBN3PPII1LLD3HEPFGJMB">Minimum Solder Mask Sliver (Gap=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1ALB0JZYCXEQ1VPOFV2W5LZIOXU53LXUSVJIWN4KPAK5I5WLSIM">Silk To Solder Mask (Clearance=0mil) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJHRRMOZRMN4WFUH43C40MUDP1NFI3KG5RGZOIGGHRFXW1JJQQWTG">Silk to Silk (Clearance=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFRPS513LBB1XPYQL30C2N04U2JWFNBDEEDSHPAJ3SZM2W0PMLGOP">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYHQ3FTUY0WRTDZVZEZSQWQMSBF1AFTNNLRZBQSCN21UKQE22IRCF">Matched Lengths(Tolerance=25.4mil) (InDifferentialPairClass('EtherCAT_B_Lines'))</a></td>
+<td class="column2">5</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSIWG4BDHLMP0DASV4I1X1N5IMD4HJGZBQL0AQENZCDCJ1TFVSXPN">Matched Lengths(Tolerance=25.4mil) (InNetClass('EtherCAT_B'))</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2N5N1RNP4TW3CE02I12VNFSNXKAH5KFOZ5FORDLP5ARU3COG4YNI">Matched Lengths(Tolerance=25.4mil) (InNetClass('EtherCAT_A'))</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDOR0GOQNI1XVXB01V1VWE3RM12EDPHQ2FIIBCRJLPYPPGU35ZM0QH">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">61</td>
+</tr>
+</table><br><a name="IDKQ1OYCKHNICDMGKJKNYKEZQGJDFBYWEADAILQXKZIEFKF2GBTJTD"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5548.401mil|Location2.X=5564.058mil|Location1.Y=1791.877mil|Location2.Y=1819.659mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5548.401mil|Location2.X=5564.058mil|Location1.Y=1791.877mil|Location2.Y=1819.659mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Copper island connected to pads/vias detected. Copper area is : 338.781 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5496.235mil|Location2.X=5511.892mil|Location1.Y=1749.935mil|Location2.Y=1777.718mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5496.235mil|Location2.X=5511.892mil|Location1.Y=1749.935mil|Location2.Y=1777.718mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Copper island connected to pads/vias detected. Copper area is : 338.781 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5522.318mil|Location2.X=5537.975mil|Location1.Y=1791.877mil|Location2.Y=1819.659mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5522.318mil|Location2.X=5537.975mil|Location1.Y=1791.877mil|Location2.Y=1819.659mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Copper island connected to pads/vias detected. Copper area is : 338.781 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5574.483mil|Location2.X=5590.14mil|Location1.Y=1791.877mil|Location2.Y=1819.659mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5574.483mil|Location2.X=5590.14mil|Location1.Y=1791.877mil|Location2.Y=1819.659mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Copper island connected to pads/vias detected. Copper area is : 338.781 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5496.235mil|Location2.X=5511.892mil|Location1.Y=1791.877mil|Location2.Y=1819.659mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5496.235mil|Location2.X=5511.892mil|Location1.Y=1791.877mil|Location2.Y=1819.659mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Copper island connected to pads/vias detected. Copper area is : 338.781 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5548.401mil|Location2.X=5564.058mil|Location1.Y=1749.935mil|Location2.Y=1777.718mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5548.401mil|Location2.X=5564.058mil|Location1.Y=1749.935mil|Location2.Y=1777.718mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Copper island connected to pads/vias detected. Copper area is : 338.781 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5574.483mil|Location2.X=5590.14mil|Location1.Y=1749.935mil|Location2.Y=1777.718mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5574.483mil|Location2.X=5590.14mil|Location1.Y=1749.935mil|Location2.Y=1777.718mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Copper island connected to pads/vias detected. Copper area is : 338.781 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5522.318mil|Location2.X=5537.975mil|Location1.Y=1749.935mil|Location2.Y=1777.718mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5522.318mil|Location2.X=5537.975mil|Location1.Y=1749.935mil|Location2.Y=1777.718mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Copper island connected to pads/vias detected. Copper area is : 338.781 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4438.756mil|Location2.X=4451.258mil|Location1.Y=1782.873mil|Location2.Y=1799.21mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4438.756mil|Location2.X=4451.258mil|Location1.Y=1782.873mil|Location2.Y=1799.21mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 119.749 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4438.756mil|Location2.X=4451.258mil|Location1.Y=1861.121mil|Location2.Y=1877.458mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4438.756mil|Location2.X=4451.258mil|Location1.Y=1861.121mil|Location2.Y=1877.458mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 119.749 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4438.756mil|Location2.X=4451.258mil|Location1.Y=1808.956mil|Location2.Y=1825.293mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4438.756mil|Location2.X=4451.258mil|Location1.Y=1808.956mil|Location2.Y=1825.293mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 119.749 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4438.756mil|Location2.X=4451.258mil|Location1.Y=1835.039mil|Location2.Y=1851.375mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4438.756mil|Location2.X=4451.258mil|Location1.Y=1835.039mil|Location2.Y=1851.375mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 119.749 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4410.756mil|Location2.X=4424.258mil|Location1.Y=1835.539mil|Location2.Y=1850.875mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4410.756mil|Location2.X=4424.258mil|Location1.Y=1835.539mil|Location2.Y=1850.875mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 128.913 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4410.756mil|Location2.X=4424.258mil|Location1.Y=1783.373mil|Location2.Y=1798.71mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4410.756mil|Location2.X=4424.258mil|Location1.Y=1783.373mil|Location2.Y=1798.71mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 128.913 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4410.756mil|Location2.X=4424.258mil|Location1.Y=1809.456mil|Location2.Y=1824.793mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4410.756mil|Location2.X=4424.258mil|Location1.Y=1809.456mil|Location2.Y=1824.793mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 128.913 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4410.756mil|Location2.X=4424.258mil|Location1.Y=1861.621mil|Location2.Y=1876.958mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4410.756mil|Location2.X=4424.258mil|Location1.Y=1861.621mil|Location2.Y=1876.958mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 128.913 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4383.756mil|Location2.X=4398.175mil|Location1.Y=1783.832mil|Location2.Y=1798.251mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4383.756mil|Location2.X=4398.175mil|Location1.Y=1783.832mil|Location2.Y=1798.251mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 139.902 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4383.756mil|Location2.X=4398.175mil|Location1.Y=1809.915mil|Location2.Y=1824.334mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4383.756mil|Location2.X=4398.175mil|Location1.Y=1809.915mil|Location2.Y=1824.334mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 139.902 sq. mils</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4383.649mil|Location2.X=4401.556mil|Location1.Y=1833.265mil|Location2.Y=1850.732mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4383.649mil|Location2.X=4401.556mil|Location1.Y=1833.265mil|Location2.Y=1850.732mil|Absolute=True">Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 186.678 sq. mils</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDV3VFN2LLJKQKII1F5FDKX01QLI2WBBPQZ4JCUCC0V3DH4VAKRKDH"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Power Plane Connect Rule(Relief Connect )(Expansion=15mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5460.117mil|Location2.X=5521.928mil|Location1.Y=1732.921mil|Location2.Y=1794.732mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5460.117mil|Location2.X=5521.928mil|Location1.Y=1732.921mil|Location2.Y=1794.732mil|Absolute=True">Starved Thermal on Ground: Via (1078.016mil,585.826mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5460.117mil|Location2.X=5521.928mil|Location1.Y=1774.862mil|Location2.Y=1836.674mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5460.117mil|Location2.X=5521.928mil|Location1.Y=1774.862mil|Location2.Y=1836.674mil|Absolute=True">Starved Thermal on Ground: Via (1078.016mil,627.768mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5486.2mil|Location2.X=5548.011mil|Location1.Y=1690.98mil|Location2.Y=1752.791mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5486.2mil|Location2.X=5548.011mil|Location1.Y=1690.98mil|Location2.Y=1752.791mil|Absolute=True">Starved Thermal on Ground: Via (1104.098mil,543.885mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5486.2mil|Location2.X=5548.011mil|Location1.Y=1732.921mil|Location2.Y=1794.732mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5486.2mil|Location2.X=5548.011mil|Location1.Y=1732.921mil|Location2.Y=1794.732mil|Absolute=True">Starved Thermal on Ground: Via (1104.098mil,585.826mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5486.2mil|Location2.X=5548.011mil|Location1.Y=1774.862mil|Location2.Y=1836.674mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5486.2mil|Location2.X=5548.011mil|Location1.Y=1774.862mil|Location2.Y=1836.674mil|Absolute=True">Starved Thermal on Ground: Via (1104.098mil,627.768mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5486.2mil|Location2.X=5548.011mil|Location1.Y=1816.804mil|Location2.Y=1878.615mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5486.2mil|Location2.X=5548.011mil|Location1.Y=1816.804mil|Location2.Y=1878.615mil|Absolute=True">Starved Thermal on Ground: Via (1104.098mil,669.709mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5512.282mil|Location2.X=5574.093mil|Location1.Y=1690.98mil|Location2.Y=1752.791mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5512.282mil|Location2.X=5574.093mil|Location1.Y=1690.98mil|Location2.Y=1752.791mil|Absolute=True">Starved Thermal on Ground: Via (1130.181mil,543.885mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5512.282mil|Location2.X=5574.093mil|Location1.Y=1732.921mil|Location2.Y=1794.732mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5512.282mil|Location2.X=5574.093mil|Location1.Y=1732.921mil|Location2.Y=1794.732mil|Absolute=True">Starved Thermal on Ground: Via (1130.181mil,585.826mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5512.282mil|Location2.X=5574.093mil|Location1.Y=1774.862mil|Location2.Y=1836.674mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5512.282mil|Location2.X=5574.093mil|Location1.Y=1774.862mil|Location2.Y=1836.674mil|Absolute=True">Starved Thermal on Ground: Via (1130.181mil,627.768mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5512.282mil|Location2.X=5574.093mil|Location1.Y=1816.804mil|Location2.Y=1878.615mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5512.282mil|Location2.X=5574.093mil|Location1.Y=1816.804mil|Location2.Y=1878.615mil|Absolute=True">Starved Thermal on Ground: Via (1130.181mil,669.709mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5538.365mil|Location2.X=5600.176mil|Location1.Y=1690.98mil|Location2.Y=1752.791mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5538.365mil|Location2.X=5600.176mil|Location1.Y=1690.98mil|Location2.Y=1752.791mil|Absolute=True">Starved Thermal on Ground: Via (1156.264mil,543.885mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5538.365mil|Location2.X=5600.176mil|Location1.Y=1732.921mil|Location2.Y=1794.732mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5538.365mil|Location2.X=5600.176mil|Location1.Y=1732.921mil|Location2.Y=1794.732mil|Absolute=True">Starved Thermal on Ground: Via (1156.264mil,585.826mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5538.365mil|Location2.X=5600.176mil|Location1.Y=1774.862mil|Location2.Y=1836.674mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5538.365mil|Location2.X=5600.176mil|Location1.Y=1774.862mil|Location2.Y=1836.674mil|Absolute=True">Starved Thermal on Ground: Via (1156.264mil,627.768mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5538.365mil|Location2.X=5600.176mil|Location1.Y=1816.804mil|Location2.Y=1878.615mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5538.365mil|Location2.X=5600.176mil|Location1.Y=1816.804mil|Location2.Y=1878.615mil|Absolute=True">Starved Thermal on Ground: Via (1156.264mil,669.709mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5564.448mil|Location2.X=5626.259mil|Location1.Y=1732.921mil|Location2.Y=1794.732mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5564.448mil|Location2.X=5626.259mil|Location1.Y=1732.921mil|Location2.Y=1794.732mil|Absolute=True">Starved Thermal on Ground: Via (1182.346mil,585.826mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5564.448mil|Location2.X=5626.259mil|Location1.Y=1774.862mil|Location2.Y=1836.674mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5564.448mil|Location2.X=5626.259mil|Location1.Y=1774.862mil|Location2.Y=1836.674mil|Absolute=True">Starved Thermal on Ground: Via (1182.346mil,627.768mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4400.101mil|Location2.X=4461.913mil|Location1.Y=1747.095mil|Location2.Y=1808.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4400.101mil|Location2.X=4461.913mil|Location1.Y=1747.095mil|Location2.Y=1808.906mil|Absolute=True">Starved Thermal on Ground: Via (18mil,600mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4400.101mil|Location2.X=4461.913mil|Location1.Y=1773.178mil|Location2.Y=1834.988mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4400.101mil|Location2.X=4461.913mil|Location1.Y=1773.178mil|Location2.Y=1834.988mil|Absolute=True">Starved Thermal on Ground: Via (18mil,626.083mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4400.101mil|Location2.X=4461.913mil|Location1.Y=1799.26mil|Location2.Y=1861.071mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4400.101mil|Location2.X=4461.913mil|Location1.Y=1799.26mil|Location2.Y=1861.071mil|Absolute=True">Starved Thermal on Ground: Via (18mil,652.165mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4400.101mil|Location2.X=4461.913mil|Location1.Y=1825.343mil|Location2.Y=1887.154mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4400.101mil|Location2.X=4461.913mil|Location1.Y=1825.343mil|Location2.Y=1887.154mil|Absolute=True">Starved Thermal on Ground: Via (18mil,678.248mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4400.101mil|Location2.X=4461.913mil|Location1.Y=1851.425mil|Location2.Y=1913.236mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4400.101mil|Location2.X=4461.913mil|Location1.Y=1851.425mil|Location2.Y=1913.236mil|Absolute=True">Starved Thermal on Ground: Via (18mil,704.33mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4347.019mil|Location2.X=4408.83mil|Location1.Y=1773.178mil|Location2.Y=1834.988mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4347.019mil|Location2.X=4408.83mil|Location1.Y=1773.178mil|Location2.Y=1834.988mil|Absolute=True">Starved Thermal on Ground: Via (-35.083mil,626.083mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4347.019mil|Location2.X=4408.83mil|Location1.Y=1799.26mil|Location2.Y=1861.071mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4347.019mil|Location2.X=4408.83mil|Location1.Y=1799.26mil|Location2.Y=1861.071mil|Absolute=True">Starved Thermal on Ground: Via (-35.083mil,652.165mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4743.439mil|Location2.X=4805.25mil|Location1.Y=2180.29mil|Location2.Y=2242.101mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4743.439mil|Location2.X=4805.25mil|Location1.Y=2180.29mil|Location2.Y=2242.101mil|Absolute=True">Starved Thermal on Power: Via (361.337mil,1033.195mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4428.101mil|Location2.X=4489.913mil|Location1.Y=1773.178mil|Location2.Y=1834.988mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4428.101mil|Location2.X=4489.913mil|Location1.Y=1773.178mil|Location2.Y=1834.988mil|Absolute=True">Starved Thermal on Ground: Via (46mil,626.083mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4428.101mil|Location2.X=4489.913mil|Location1.Y=1799.26mil|Location2.Y=1861.071mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4428.101mil|Location2.X=4489.913mil|Location1.Y=1799.26mil|Location2.Y=1861.071mil|Absolute=True">Starved Thermal on Ground: Via (46mil,652.165mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4428.101mil|Location2.X=4489.913mil|Location1.Y=1825.343mil|Location2.Y=1887.154mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4428.101mil|Location2.X=4489.913mil|Location1.Y=1825.343mil|Location2.Y=1887.154mil|Absolute=True">Starved Thermal on Ground: Via (46mil,678.248mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4373.101mil|Location2.X=4434.913mil|Location1.Y=1747.095mil|Location2.Y=1808.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4373.101mil|Location2.X=4434.913mil|Location1.Y=1747.095mil|Location2.Y=1808.906mil|Absolute=True">Starved Thermal on Ground: Via (-9mil,600mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4373.101mil|Location2.X=4434.913mil|Location1.Y=1773.178mil|Location2.Y=1834.988mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4373.101mil|Location2.X=4434.913mil|Location1.Y=1773.178mil|Location2.Y=1834.988mil|Absolute=True">Starved Thermal on Ground: Via (-9mil,626.083mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4373.101mil|Location2.X=4434.913mil|Location1.Y=1799.26mil|Location2.Y=1861.071mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4373.101mil|Location2.X=4434.913mil|Location1.Y=1799.26mil|Location2.Y=1861.071mil|Absolute=True">Starved Thermal on Ground: Via (-9mil,652.165mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4373.101mil|Location2.X=4434.913mil|Location1.Y=1825.343mil|Location2.Y=1887.154mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4373.101mil|Location2.X=4434.913mil|Location1.Y=1825.343mil|Location2.Y=1887.154mil|Absolute=True">Starved Thermal on Ground: Via (-9mil,678.248mil) from Top Layer to Bottom Layer. Blocked 3 out of 4 entries.</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDYHQ3FTUY0WRTDZVZEZSQWQMSBF1AFTNNLRZBQSCN21UKQE22IRCF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Matched Lengths(Tolerance=25.4mil) (InDifferentialPairClass('EtherCAT_B_Lines'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4497.787mil|Location2.X=5438.039mil|Location1.Y=1633.921mil|Location2.Y=2175.047mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4497.787mil|Location2.X=5438.039mil|Location1.Y=1633.921mil|Location2.Y=2175.047mil|Absolute=True">Matched Net Lengths: Differential Pair RXB Actual Length Difference against diff pair TXB is: 444.202mil, Length Tolerance : 25.4mil.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4497.787mil|Location2.X=5438.039mil|Location1.Y=1817.016mil|Location2.Y=2464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4497.787mil|Location2.X=5438.039mil|Location1.Y=1817.016mil|Location2.Y=2464mil|Absolute=True">Matched Net Lengths: Differential Pair TXB Actual Length Difference against diff pair RXB is: 444.202mil, Length Tolerance : 25.4mil.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4497.787mil|Location2.X=5438.039mil|Location1.Y=1633.921mil|Location2.Y=2464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4497.787mil|Location2.X=5438.039mil|Location1.Y=1633.921mil|Location2.Y=2464mil|Absolute=True">Matched Net Lengths: Between Net RXB_N And Net TXB_N Length:1178.516mil is not within 25.4mil tolerance of Length:1764.514mil (560.597mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4497.787mil|Location2.X=5438.039mil|Location1.Y=1713mil|Location2.Y=2464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4497.787mil|Location2.X=5438.039mil|Location1.Y=1713mil|Location2.Y=2464mil|Absolute=True">Matched Net Lengths: Between Net RXB_P And Net TXB_N Length:1289.861mil is not within 25.4mil tolerance of Length:1764.514mil (449.253mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4497.787mil|Location2.X=5438.039mil|Location1.Y=1713mil|Location2.Y=2446mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4497.787mil|Location2.X=5438.039mil|Location1.Y=1713mil|Location2.Y=2446mil|Absolute=True">Matched Net Lengths: Between Net RXB_P And Net TXB_P Length:1289.861mil is not within 25.4mil tolerance of Length:1592.267mil (277.006mil short) </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDSIWG4BDHLMP0DASV4I1X1N5IMD4HJGZBQL0AQENZCDCJ1TFVSXPN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Matched Lengths(Tolerance=25.4mil) (InNetClass('EtherCAT_B'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4497.787mil|Location2.X=5438.039mil|Location1.Y=1633.921mil|Location2.Y=2464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4497.787mil|Location2.X=5438.039mil|Location1.Y=1633.921mil|Location2.Y=2464mil|Absolute=True">Matched Net Lengths: Between Net RXB_N And Net TXB_N Length:1178.516mil is not within 25.4mil tolerance of Length:1764.514mil (560.597mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4497.787mil|Location2.X=5438.039mil|Location1.Y=1713mil|Location2.Y=2464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4497.787mil|Location2.X=5438.039mil|Location1.Y=1713mil|Location2.Y=2464mil|Absolute=True">Matched Net Lengths: Between Net RXB_P And Net TXB_N Length:1289.861mil is not within 25.4mil tolerance of Length:1764.514mil (449.253mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4497.787mil|Location2.X=5438.039mil|Location1.Y=1713mil|Location2.Y=2446mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4497.787mil|Location2.X=5438.039mil|Location1.Y=1713mil|Location2.Y=2446mil|Absolute=True">Matched Net Lengths: Between Net RXB_P And Net TXB_P Length:1289.861mil is not within 25.4mil tolerance of Length:1592.267mil (277.006mil short) </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID2N5N1RNP4TW3CE02I12VNFSNXKAH5KFOZ5FORDLP5ARU3COG4YNI"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Matched Lengths(Tolerance=25.4mil) (InNetClass('EtherCAT_A'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4697.305mil|Location2.X=5438.039mil|Location1.Y=1245.945mil|Location2.Y=2013.594mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4697.305mil|Location2.X=5438.039mil|Location1.Y=1245.945mil|Location2.Y=2013.594mil|Absolute=True">Matched Net Lengths: Between Net RXA_N And Net TXA_N Length:1288.403mil is not within 25.4mil tolerance of Length:1634.066mil (320.263mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4697.305mil|Location2.X=5338.039mil|Location1.Y=1245.945mil|Location2.Y=2082.079mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4697.305mil|Location2.X=5338.039mil|Location1.Y=1245.945mil|Location2.Y=2082.079mil|Absolute=True">Matched Net Lengths: Between Net RXA_N And Net TXA_P Length:1191.835mil is not within 25.4mil tolerance of Length:1634.066mil (416.831mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4697.305mil|Location2.X=5438.039mil|Location1.Y=1227.945mil|Location2.Y=2013.594mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4697.305mil|Location2.X=5438.039mil|Location1.Y=1227.945mil|Location2.Y=2013.594mil|Absolute=True">Matched Net Lengths: Between Net RXA_P And Net TXA_N Length:1288.403mil is not within 25.4mil tolerance of Length:1602.404mil (288.601mil short) </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

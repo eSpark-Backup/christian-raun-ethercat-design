@@ -1,0 +1,124 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc
+Date     : 5/5/2023
+Time     : 1:06:00 AM
+
+Processing Rule : Clearance Constraint (Gap=7mil) (InDifferentialPairClass('EtherCAT_A_Lines')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=7mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=7mil) (InDifferentialPairClass('EtherCAT_B_Lines')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Copper island connected to pads/vias detected. Copper area is : 338.781 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Copper island connected to pads/vias detected. Copper area is : 338.781 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Copper island connected to pads/vias detected. Copper area is : 338.781 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Copper island connected to pads/vias detected. Copper area is : 338.781 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Copper island connected to pads/vias detected. Copper area is : 338.781 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Copper island connected to pads/vias detected. Copper area is : 338.781 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Copper island connected to pads/vias detected. Copper area is : 338.781 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Copper island connected to pads/vias detected. Copper area is : 338.781 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 119.749 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 119.749 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 119.749 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 119.749 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 128.913 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 128.913 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 128.913 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 128.913 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 139.902 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 139.902 sq. mils
+   Violation between Isolated copper: Split Plane  (GND) on Ground. Dead copper detected. Copper area is : 186.678 sq. mils
+Rule Violations :19
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=8mil) (Max=50mil) (Preferred=22mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=15mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+   Violation between Starved Thermal on Ground: Via (1078.016mil,585.826mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (1078.016mil,627.768mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (1104.098mil,543.885mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (1104.098mil,585.826mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (1104.098mil,627.768mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (1104.098mil,669.709mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (1130.181mil,543.885mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (1130.181mil,585.826mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (1130.181mil,627.768mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (1130.181mil,669.709mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (1156.264mil,543.885mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (1156.264mil,585.826mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (1156.264mil,627.768mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (1156.264mil,669.709mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (1182.346mil,585.826mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (1182.346mil,627.768mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (18mil,600mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (18mil,626.083mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (18mil,652.165mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (18mil,678.248mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (18mil,704.33mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (-35.083mil,626.083mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (-35.083mil,652.165mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Power: Via (361.337mil,1033.195mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (46mil,626.083mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (46mil,652.165mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (46mil,678.248mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (-9mil,600mil) from Top Layer to Bottom Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (-9mil,626.083mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (-9mil,652.165mil) from Top Layer to Bottom Layer. Blocked 4 out of 4 entries.
+   Violation between Starved Thermal on Ground: Via (-9mil,678.248mil) from Top Layer to Bottom Layer. Blocked 3 out of 4 entries.
+Rule Violations :31
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=1000mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=25.4mil) (InDifferentialPairClass('EtherCAT_B_Lines'))
+   Violation between Matched Net Lengths: Differential Pair RXB Actual Length Difference against diff pair TXB is: 444.202mil, Length Tolerance : 25.4mil.
+   Violation between Matched Net Lengths: Differential Pair TXB Actual Length Difference against diff pair RXB is: 444.202mil, Length Tolerance : 25.4mil.
+   Violation between Matched Net Lengths: Between Net RXB_N And Net TXB_N Length:1178.516mil is not within 25.4mil tolerance of Length:1764.514mil (560.597mil short) 
+   Violation between Matched Net Lengths: Between Net RXB_P And Net TXB_N Length:1289.861mil is not within 25.4mil tolerance of Length:1764.514mil (449.253mil short) 
+   Violation between Matched Net Lengths: Between Net RXB_P And Net TXB_P Length:1289.861mil is not within 25.4mil tolerance of Length:1592.267mil (277.006mil short) 
+Rule Violations :5
+
+Processing Rule : Matched Lengths(Tolerance=25.4mil) (InNetClass('EtherCAT_B'))
+   Violation between Matched Net Lengths: Between Net RXB_N And Net TXB_N Length:1178.516mil is not within 25.4mil tolerance of Length:1764.514mil (560.597mil short) 
+   Violation between Matched Net Lengths: Between Net RXB_P And Net TXB_N Length:1289.861mil is not within 25.4mil tolerance of Length:1764.514mil (449.253mil short) 
+   Violation between Matched Net Lengths: Between Net RXB_P And Net TXB_P Length:1289.861mil is not within 25.4mil tolerance of Length:1592.267mil (277.006mil short) 
+Rule Violations :3
+
+Processing Rule : Matched Lengths(Tolerance=25.4mil) (InNetClass('EtherCAT_A'))
+   Violation between Matched Net Lengths: Between Net RXA_N And Net TXA_N Length:1288.403mil is not within 25.4mil tolerance of Length:1634.066mil (320.263mil short) 
+   Violation between Matched Net Lengths: Between Net RXA_N And Net TXA_P Length:1191.835mil is not within 25.4mil tolerance of Length:1634.066mil (416.831mil short) 
+   Violation between Matched Net Lengths: Between Net RXA_P And Net TXA_N Length:1288.403mil is not within 25.4mil tolerance of Length:1602.404mil (288.601mil short) 
+Rule Violations :3
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 61
+Waived Violations : 0
+Time Elapsed        : 00:00:02
