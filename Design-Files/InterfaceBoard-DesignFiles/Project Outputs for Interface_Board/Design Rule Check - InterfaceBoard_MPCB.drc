@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : E:\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc
 Date     : 5/5/2023
-Time     : 11:07:00 AM
+Time     : 7:33:47 PM
 
 Processing Rule : Clearance Constraint (Gap=7mil) (InDifferentialPairClass('EtherCAT_A_Lines')),(All)
 Rule Violations :0
@@ -46,25 +46,15 @@ Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
 Processing Rule : Matched Lengths(Tolerance=20mil) (InDifferentialPairClass('EtherCAT_A_Lines'))
-   Violation between Matched Net Lengths: Differential Pair RXA Actual Length Difference against diff pair TXA is: 240.186mil, Length Tolerance : 20mil.
-   Violation between Matched Net Lengths: Differential Pair TXA Actual Length Difference against diff pair RXA is: 240.186mil, Length Tolerance : 20mil.
-   Violation between Matched Net Lengths: Between Net RXA_N And Net TXA_N Length:1298.451mil is not within 20mil tolerance of Length:1373.278mil (54.827mil short) 
-   Violation between Matched Net Lengths: Between Net RXA_P And Net TXA_N Length:1298.451mil is not within 20mil tolerance of Length:1607.428mil (288.977mil short) 
-   Violation between Matched Net Lengths: Between Net RXA_P And Net TXA_P Length:1201.883mil is not within 20mil tolerance of Length:1607.428mil (385.545mil short) 
-Rule Violations :5
+Rule Violations :0
 
 Processing Rule : Matched Lengths(Tolerance=20mil) (InDifferentialPairClass('EtherCAT_B_Lines'))
-   Violation between Matched Net Lengths: Differential Pair RXB Actual Length Difference against diff pair TXB is: 444.202mil, Length Tolerance : 20mil.
-   Violation between Matched Net Lengths: Differential Pair TXB Actual Length Difference against diff pair RXB is: 444.202mil, Length Tolerance : 20mil.
-   Violation between Matched Net Lengths: Between Net RXB_N And Net TXB_N Length:1183.54mil is not within 20mil tolerance of Length:1769.537mil (565.997mil short) 
-   Violation between Matched Net Lengths: Between Net RXB_P And Net TXB_N Length:1294.885mil is not within 20mil tolerance of Length:1769.537mil (454.653mil short) 
-   Violation between Matched Net Lengths: Between Net RXB_P And Net TXB_P Length:1294.885mil is not within 20mil tolerance of Length:1597.291mil (282.406mil short) 
-Rule Violations :5
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 10
+Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
