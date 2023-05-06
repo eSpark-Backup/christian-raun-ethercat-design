@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\LiberDB\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc
-Date     : 5/5/2023
-Time     : 10:56:44 PM
+PCB File : E:\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\InterfaceBoard_MPCB.PcbDoc
+Date     : 5/6/2023
+Time     : 5:30:47 PM
 
 Processing Rule : Clearance Constraint (Gap=7mil) (InDifferentialPairClass('EtherCAT_A_Lines')),(All)
 Rule Violations :0
@@ -16,8 +16,7 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Isolated copper: Split Plane  (GND) on Ground. Copper island connected to pads/vias detected. Copper area is : 513016.928 sq. mils
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -56,6 +55,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 1
+Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
