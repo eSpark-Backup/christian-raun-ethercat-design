@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=DIR Pin=J1-19
+Removed Pin From Net: NetName=STEP Pin=J1-21
+Removed Pin From Net: NetName=TXA_N Pin=J2-SS
+Added Pin To Net: NetName=STEP Pin=J1-19
+Added Pin To Net: NetName=DIR Pin=J1-21
+Added Rule: Name=Schematic Matched Net Lengths
+Added Rule: Name=Schematic Matched Net Lengths_1

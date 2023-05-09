@@ -1,12 +1,12 @@
 Altium Designer Pick and Place Locations
-C:\Users\XPENDER\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\InterfaceBoard-DesignFiles\Project Outputs for Interface_Board\Pick Place for InterfaceBoard_MPCB.txt
+E:\ChristianRaun-EthercatDesign\Design-Files\Interface Board\Project Outputs for Interface_Board\Pick Place for InterfaceBoard_MPCB.txt
 
 ========================================================================================================================
 File Design Information:
 
-Date:       06/05/23
-Time:       21:40
-Revision:   507962a8d52b2a9861db98136ee18b6323c82e27
+Date:       09/05/23
+Time:       10:27
+Revision:   6bb55065d9f9dabd67fa2717f24ac59f61a2f573
 Variant:    No variations
 Units used: mil
 

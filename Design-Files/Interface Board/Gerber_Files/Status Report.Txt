@@ -1,12 +1,11 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [Interface_Board.PrjPcb]
-   Generated File[InterfaceBoard_MPCB.TXT]
-   Generated File[InterfaceBoard_MPCB.LDP]
-   Generated File[InterfaceBoard_MPCB.DRR]
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [Interface_Board.PrjPcb]
+   Generated File[Pick Place for InterfaceBoard_MPCB.txt]
+   Generated File[Pick Place for InterfaceBoard_MPCB.csv]
 
 
-Files Generated   : 3
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 9:48:50 PM On 5/6/2023
+Finished Output Generation At 10:27:47 AM On 5/9/2023
