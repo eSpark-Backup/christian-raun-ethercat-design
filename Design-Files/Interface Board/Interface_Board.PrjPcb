@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=
+OutputPath=Project Outputs for Interface_Board
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -183,7 +183,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PDYSTBMJ
 
 [Document9]
-DocumentPath=Gerber_Files\Gerber.Cam
+DocumentPath=Gerber_Files\Gerber_Files.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -200,7 +200,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document10]
-DocumentPath=Gerber_Files\NC_Drill_Files.Cam
+DocumentPath=Gerber_Files\NC_Drill_files.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -217,90 +217,98 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.DRR
+DocumentPath=Project Outputs for Interface_Board\Design Rule Check - InterfaceBoard_MPCB.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.EXTREP
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GBL
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GBO
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GBP
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GBS
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GD1
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GG1
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GM2
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GP1
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GP2
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GP1
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GPB
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GP2
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GPT
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GTL
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GTO
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GTP
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GTS
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.LDP
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.REP
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.RUL
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.REP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.TXT
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument22]
+DocumentPath=Project Outputs for Interface_Board\InterfaceBoard_MPCB.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for Interface_Board\Pick Place for InterfaceBoard_MPCB.csv
+DItemRevisionGUID=
+
+[GeneratedDocument24]
 DocumentPath=Project Outputs for Interface_Board\Pick Place for InterfaceBoard_MPCB.txt
 DItemRevisionGUID=
 
@@ -351,7 +359,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Interface_Board
 
 [OutputGroup1]
 Name=Netlist Outputs
