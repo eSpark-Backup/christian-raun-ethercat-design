@@ -1,0 +1,11 @@
+Added Component: Designator=L2(PSPMAA0605H-680M-IGF)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/product-detail/Power-Inductors_PROD-Tech-PSPMAA0605H-680M-IGF_C2983094.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Item Type"; Value = "Inductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C2983094"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "PROD Tech"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "PSPMAA0605H-680M-IGF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMD,6.6x7.1mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PH Pin=L2-1
+Added Pin To Net: NetName=VOUT_12V Pin=L2-2
+Added Member To Class: ClassName=U_Power-Section Member=Component L2 68uH

@@ -1,0 +1,152 @@
+Added Component: Designator=U1(LAN9255/ZMX019)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Microchip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "LAN9255-I/ZMX019"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=17.76000, 25=16.18480 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "150-LAN9255-I/ZMX019-ND"; VariantName = "[No Variations]"
+Added Component: Designator=U3(TXB0102DCUT)
+Add component (AddParameter): Name = "Case/Package"; Value = "VSSOP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Integrated Circuits (ICs)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.ciiva.com/4226/sces641b-4226901.pdf?src-supplier=Arrow+Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.ciiva.com/4226/sces641b-4226901.pdf?src-supplier=Arrow+Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "https://datasheet.ciiva.com/15096/getdatasheetpartid-226009-15096242.pdf?src-supplier=Verical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://datasheet.ciiva.com/15096/getdatasheetpartid-226009-15096242.pdf?src-supplier=Verical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "https://datasheet.ciiva.com/14287/txb0102-14287498.pdf?src-supplier=Avnet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://datasheet.ciiva.com/14287/txb0102-14287498.pdf?src-supplier=Avnet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "https://datasheet.ciiva.com/14287/txb0102-14287370.pdf?src-supplier=Avnet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "https://datasheet.ciiva.com/14287/txb0102-14287370.pdf?src-supplier=Avnet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5Description"; Value = "https://datasheet.ciiva.com/6619/txb0102-6619255.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5URL"; Value = "https://datasheet.ciiva.com/6619/txb0102-6619255.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink6Description"; Value = "https://datasheet.ciiva.com/6619/txb0102-6619256.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink6URL"; Value = "https://datasheet.ciiva.com/6619/txb0102-6619256.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink7Description"; Value = "https://datasheet.ciiva.com/6619/txb0102-6619257.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink7URL"; Value = "https://datasheet.ciiva.com/6619/txb0102-6619257.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Data Rate"; Value = "100Mbps"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.85mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "High Level Output Current"; Value = "-20uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Logic Function"; Value = "Translator"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Low Level Output Current"; Value = "20uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TXB0102DCUT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "5.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "1.65V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Bits"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Channels"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Inputs"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Current"; Value = "50mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Type"; Value = "3-STATE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=0.79330, 10=0.66470, 25=0.65820, 250=0.37450, 500=0.36200, 1000=0.29770, 2500=0.28440 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Propagation Delay"; Value = "31ns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Arrow Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "TXB0102DCUT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Turn-On Delay Time"; Value = "7.4ns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.000339oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "2mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=XTAL_OUT Pin=U1-1
+Added Pin To Net: NetName=DIR Pin=U1-2
+Added Pin To Net: NetName=XIN32 Pin=U1-3
+Added Pin To Net: NetName=NetP1_1 Pin=U1-4
+Added Pin To Net: NetName=XOUT32 Pin=U1-5
+Added Pin To Net: NetName=GND Pin=U1-6
+Added Pin To Net: NetName=VCC_3V3 Pin=U1-7
+Added Pin To Net: NetName=STEP Pin=U1-10
+Added Pin To Net: NetName=DIAG Pin=U1-11
+Added Pin To Net: NetName=VDD_CR Pin=U1-12
+Added Pin To Net: NetName=NetR5_2 Pin=U1-13
+Added Pin To Net: NetName=NetR6_2 Pin=U1-14
+Added Pin To Net: NetName=GND Pin=U1-15
+Added Pin To Net: NetName=VDDANA Pin=U1-16
+Added Pin To Net: NetName=ERRLED Pin=U1-17
+Added Pin To Net: NetName=RST Pin=U1-21
+Added Pin To Net: NetName=QSPI_SIO2 Pin=U1-24
+Added Pin To Net: NetName=UART_TX Pin=U1-25
+Added Pin To Net: NetName=QSPI_SIO1 Pin=U1-26
+Added Pin To Net: NetName=UART_RX Pin=U1-27
+Added Pin To Net: NetName=VCC_3V3 Pin=U1-29
+Added Pin To Net: NetName=QSPI_SIO0 Pin=U1-33
+Added Pin To Net: NetName=QSPI_SIO1 Pin=U1-34
+Added Pin To Net: NetName=QSPI_SIO2 Pin=U1-35
+Added Pin To Net: NetName=QSPI_SIO3 Pin=U1-36
+Added Pin To Net: NetName=VCC_3V3 Pin=U1-37
+Added Pin To Net: NetName=QSPI_SIO0 Pin=U1-38
+Added Pin To Net: NetName=NetU1_39 Pin=U1-39
+Added Pin To Net: NetName=NetR11_2 Pin=U1-40
+Added Pin To Net: NetName=QSPI_CLK Pin=U1-41
+Added Pin To Net: NetName=NetR12_2 Pin=U1-42
+Added Pin To Net: NetName=ENC_DATA Pin=U1-43
+Added Pin To Net: NetName=ENC_SCK Pin=U1-44
+Added Pin To Net: NetName=VCC_3V3 Pin=U1-45
+Added Pin To Net: NetName=ENC_CS Pin=U1-46
+Added Pin To Net: NetName=ENC_DATA Pin=U1-47
+Added Pin To Net: NetName=VDD_CR Pin=U1-52
+Added Pin To Net: NetName=VCC_3V3 Pin=U1-60
+Added Pin To Net: NetName=VCC_3V3 Pin=U1-65
+Added Pin To Net: NetName=UART_IO# Pin=U1-67
+Added Pin To Net: NetName=UART_IO Pin=U1-68
+Added Pin To Net: NetName=QSPI_SIO3 Pin=U1-71
+Added Pin To Net: NetName=VCC_3V3 Pin=U1-74
+Added Pin To Net: NetName=VDD_CR Pin=U1-76
+Added Pin To Net: NetName=NetR2_2 Pin=U1-81
+Added Pin To Net: NetName=SDA_ Pin=U1-82
+Added Pin To Net: NetName=SCL_ Pin=U1-83
+Added Pin To Net: NetName=PHY_IRQn Pin=U1-88
+Added Pin To Net: NetName=EEPSIZE Pin=U1-89
+Added Pin To Net: NetName=LINK1 Pin=U1-90
+Added Pin To Net: NetName=VCC_3V3 Pin=U1-94
+Added Pin To Net: NetName=LINK0 Pin=U1-95
+Added Pin To Net: NetName=VCC_3V3 Pin=U1-97
+Added Pin To Net: NetName=CLK_25 Pin=U1-98
+Added Pin To Net: NetName=PHY_IRQn Pin=U1-99
+Added Pin To Net: NetName=QSPI_CS Pin=U1-101
+Added Pin To Net: NetName=VDDTXRX1 Pin=U1-102
+Added Pin To Net: NetName=TXA_N Pin=U1-103
+Added Pin To Net: NetName=TXA_P Pin=U1-104
+Added Pin To Net: NetName=RXA_N Pin=U1-105
+Added Pin To Net: NetName=RXA_P Pin=U1-106
+Added Pin To Net: NetName=RST Pin=U1-108
+Added Pin To Net: NetName=VDD_CORE Pin=U1-109
+Added Pin To Net: NetName=VDD12 Pin=U1-110
+Added Pin To Net: NetName=NetR13_2 Pin=U1-111
+Added Pin To Net: NetName=VDDBIAS Pin=U1-112
+Added Pin To Net: NetName=VDD12 Pin=U1-113
+Added Pin To Net: NetName=NetL6_1 Pin=U1-114
+Added Pin To Net: NetName=TXB_N Pin=U1-115
+Added Pin To Net: NetName=TXB_P Pin=U1-116
+Added Pin To Net: NetName=VCC_3V3 Pin=U1-117
+Added Pin To Net: NetName=RXB_P Pin=U1-118
+Added Pin To Net: NetName=RXB_N Pin=U1-119
+Added Pin To Net: NetName=SWDCLK Pin=U1-120
+Added Pin To Net: NetName=SWDIO Pin=U1-121
+Added Pin To Net: NetName=SWO Pin=U1-122
+Added Pin To Net: NetName=VDDTXRX2 Pin=U1-124
+Added Pin To Net: NetName=OPTO_IN Pin=U1-127
+Added Pin To Net: NetName=XTAL_IN Pin=U1-128
+Added Pin To Net: NetName=GND Pin=U1-129
+Added Pin To Net: NetName=#UART_RX Pin=U3-1
+Added Pin To Net: NetName=GND Pin=U3-2
+Added Pin To Net: NetName=VCC_3V3 Pin=U3-3
+Added Pin To Net: NetName=UART_RX Pin=U3-4
+Added Pin To Net: NetName=UART_TX Pin=U3-5
+Added Pin To Net: NetName=NetR23_2 Pin=U3-6
+Added Pin To Net: NetName=VDD_5V Pin=U3-7
+Added Pin To Net: NetName=#UART_TX Pin=U3-8
+Added Pin To Net: NetName=NetU1_70 Pin=U1-70
+Added Net: Name=NetU1_70
+Added Member To Class: ClassName=U_Controller-Part-1 Member=Component U1 LAN9255/ZMX019
+Added Member To Class: ClassName=U_Level-Shifter-Section Member=Component U3 TXB0102DCUT

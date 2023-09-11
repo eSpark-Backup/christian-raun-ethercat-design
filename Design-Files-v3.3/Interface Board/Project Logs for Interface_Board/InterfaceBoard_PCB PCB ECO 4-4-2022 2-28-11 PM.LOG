@@ -1,0 +1,2 @@
+Added Pin To Net: NetName=GND Pin=U1-5
+Added Member To Class: ClassName=U_MCU-Power Member=Component U1 TPS62162DSGR

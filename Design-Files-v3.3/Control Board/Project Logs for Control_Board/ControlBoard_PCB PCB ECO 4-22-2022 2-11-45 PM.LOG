@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=TXB_N Pin=U1-115
+Removed Pin From Net: NetName=TXB_P Pin=U1-116
+Added Pin To Net: NetName=TXB_P Pin=U1-115
+Added Pin To Net: NetName=TXB_N Pin=U1-116

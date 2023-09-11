@@ -1,0 +1,12 @@
+Added Class: Name=EtherCAT_A
+Added Class: Name=EtherCAT_B
+Added Differential Pair: Name=RXA
+Added Differential Pair: Name=RXB
+Added Differential Pair: Name=TXA
+Added Differential Pair: Name=TXB
+Added Member To Class: ClassName=U_Connector-Section Member=Component J3 PHF254SMD-x
+Added Member To Class: ClassName=U_Controller-Part-2 Member=Component L6 MGFL2012F100MT-LF
+Added Rule: Name=Schematic Differential Pairs Routing
+Added Rule: Name=Schematic Differential Pairs Routing_1
+Added Class: Name=EtherCAT_A_Lines
+Added Class: Name=EtherCAT_B_Lines

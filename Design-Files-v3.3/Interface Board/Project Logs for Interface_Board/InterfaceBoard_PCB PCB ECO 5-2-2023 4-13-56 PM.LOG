@@ -1,0 +1,4 @@
+Added Component: Designator=SB2(Solder Bridge)
+Added Pin To Net: NetName=NetSB2_1 Pin=SB2-1
+Added Pin To Net: NetName=GND Pin=SB2-2
+Added Member To Class: ClassName=U_Stepper-Driver Member=Component SB2 Solder Bridge

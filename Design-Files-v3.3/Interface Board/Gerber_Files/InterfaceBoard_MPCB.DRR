@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: InterfaceBoard_MPCB.PcbDoc   5/17/2023  2:28:17 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : InterfaceBoard_MPCB.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             192       PTH        16.82inch (427.27mm)
+T2      35mil (0.89mm)                                            Round             16        PTH        2.09inch (53.00mm)
+T3      35mil (0.9mm)                                             Round             4         PTH        0.31inch (8.00mm)
+T4      37mil (0.95mm)                                            Round             4         PTH        0.30inch (7.62mm)
+T5      40mil (1.02mm)                                            Round             8         PTH        1.25inch (31.73mm)
+T6      64mil (1.63mm)                                            Round             4         PTH        1.38inch (34.98mm)
+T7      126mil (3.2mm)                                            Round             4         PTH        3.68inch (93.55mm)
+T8      126mil (3.2mm)                                            Round             4         NPTH       1.20inch (30.51mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              236
+
+Total Processing Time (hh:mm:ss) : 00:00:00
