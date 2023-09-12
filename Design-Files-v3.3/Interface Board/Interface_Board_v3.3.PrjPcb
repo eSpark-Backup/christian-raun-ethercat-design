@@ -64,7 +64,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ATUXSGBO
 
 [Document2]
-DocumentPath=Controller-Sheet.SchDot
+DocumentPath=Connector-Sheet.SchDot
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -95,10 +95,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ATUXSGBO
+DocumentUniqueId=XHHTLRTX
 
 [Document4]
-DocumentPath=Interface_Board.OutJob
+DocumentPath=Stepper-Sheet.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -115,6 +115,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
+DocumentPath=Interface_Board.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document6]
 DocumentPath=InterfaceBoard_MPCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -131,7 +148,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PDYSTBMJ
 
-[Document6]
+[Document7]
 DocumentPath=Gerber_Files\Gerber_Files.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -148,7 +165,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document8]
 DocumentPath=Gerber_Files\NC_Drill_files.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -165,8 +182,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
-DocumentPath=Stepper-Sheet.Harness
+[Document9]
+DocumentPath=Connector-Sheet.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0

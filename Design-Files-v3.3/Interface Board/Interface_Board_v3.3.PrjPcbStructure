@@ -1,3 +1,3 @@
-Record=TopLevelDocument|FileName=Controller-Sheet.SchDot|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Controller-Sheet.SchDot|FileName=Power-Sheet.SchDot|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Controller-Sheet.SchDot|FileName=Stepper-Sheet.SchDot|SheetNumber=1
+Record=TopLevelDocument|FileName=Connector-Sheet.SchDot|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Connector-Sheet.SchDot|FileName=Power-Sheet.SchDot|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Connector-Sheet.SchDot|FileName=Stepper-Sheet.SchDot|SheetNumber=1
