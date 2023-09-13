@@ -1,4 +1,5 @@
-Record=TopLevelDocument|FileName=Coltroller-Part2.SchDot|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Coltroller-Part2.SchDot|FileName=Connector-Sheet.SchDot|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Coltroller-Part2.SchDot|FileName=Encoder-Sheet.SchDot|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Coltroller-Part2.SchDot|FileName=Level-Shifter-Selector.SchDot|SheetNumber=1
+Record=TopLevelDocument|FileName=Coltroller-Part1.SchDot|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Coltroller-Part1.SchDot|FileName=Coltroller-Part2.SchDot|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Coltroller-Part1.SchDot|FileName=Connector-Sheet.SchDot|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Coltroller-Part1.SchDot|FileName=Encoder-Sheet.SchDot|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Coltroller-Part1.SchDot|FileName=Level-Shifter-Selector.SchDot|SheetNumber=1

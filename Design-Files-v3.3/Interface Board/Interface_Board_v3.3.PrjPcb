@@ -61,7 +61,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ATUXSGBO
+DocumentUniqueId=CPMBFVDP
 
 [Document2]
 DocumentPath=Connector-Sheet.SchDot
@@ -78,7 +78,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=VRZUWVDE
+DocumentUniqueId=ATUXSGBO
 
 [Document3]
 DocumentPath=Connector-Sheet.Harness
