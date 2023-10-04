@@ -1,3 +1,4 @@
-Record=TopLevelDocument|FileName=Connector-Sheet.SchDot|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Connector-Sheet.SchDot|FileName=Power-Sheet.SchDot|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Connector-Sheet.SchDot|FileName=Stepper-Sheet.SchDot|SheetNumber=1
+Record=TopLevelDocument|FileName=Top-Sheet.SchDot|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Top-Sheet.SchDot|Designator=U_Connector-Sheet|SchDesignator=U_Connector-Sheet|FileName=Connector-Sheet.SchDot|SheetNumber=1|SymbolType=Normal|RawFileName=Connector-Sheet.SchDot|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Top-Sheet.SchDot|Designator=U_Power-Sheet|SchDesignator=U_Power-Sheet|FileName=Power-Sheet.SchDot|SheetNumber=1|SymbolType=Normal|RawFileName=Power-Sheet.SchDot|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Top-Sheet.SchDot|Designator=U_Stepper-Sheet|SchDesignator=U_Stepper-Sheet|FileName=Stepper-Sheet.SchDot|SheetNumber=1|SymbolType=Normal|RawFileName=Stepper-Sheet.SchDot|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
