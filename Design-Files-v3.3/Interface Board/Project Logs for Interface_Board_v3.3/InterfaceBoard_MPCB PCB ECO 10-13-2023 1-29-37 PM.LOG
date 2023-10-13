@@ -1,0 +1,33 @@
+Change Component Footprint: Designator=U4 Old Footprint=TSOT-23-6 New Footprint=TMC2130-LA-T
+Change Component Library : Designator=U4 Old Library=eSpark Libraries.IntLib New Library=Christian_Raun.IntLib
+Add Pin To Net: Unknown Pin: Pin L1-1
+Add Pin To Net: Unknown Pin: Pin L1-2
+Added Pin To Net: NetName=DIR Pin=U4-7
+Added Pin To Net: NetName=VCC_3V3 Pin=U4-8
+Added Pin To Net: NetName=GND Pin=U4-10
+Added Pin To Net: NetName=GND Pin=U4-12
+Added Pin To Net: NetName=MOTOR_B1 Pin=U4-13
+Added Pin To Net: NetName=NetC37_1 Pin=U4-14
+Added Pin To Net: NetName=MOTOR_B2 Pin=U4-15
+Added Pin To Net: NetName=VIN Pin=U4-16
+Added Pin To Net: NetName=NetSB2_1 Pin=U4-18
+Added Pin To Net: NetName=NetSB1_1 Pin=U4-19
+Added Pin To Net: NetName=DIAG0 Pin=U4-20
+Added Pin To Net: NetName=DIAG1 Pin=U4-21
+Added Pin To Net: NetName=GND Pin=U4-22
+Added Pin To Net: NetName=NetR24_2 Pin=U4-23
+Added Pin To Net: NetName=GND Pin=U4-24
+Added Pin To Net: NetName=5VOUT Pin=U4-25
+Added Pin To Net: NetName=5V_EXT Pin=U4-26
+Added Pin To Net: NetName=NetC33_2 Pin=U4-27
+Added Pin To Net: NetName=NetC33_1 Pin=U4-28
+Added Pin To Net: NetName=NetC32_1 Pin=U4-29
+Added Pin To Net: NetName=5V_EXT Pin=U4-30
+Added Pin To Net: NetName=VIN Pin=U4-31
+Added Pin To Net: NetName=MOTOR_A2 Pin=U4-32
+Added Pin To Net: NetName=NetC36_1 Pin=U4-33
+Added Pin To Net: NetName=MOTOR_A1 Pin=U4-34
+Added Pin To Net: NetName=GND Pin=U4-35
+Added Pin To Net: NetName=GND Pin=U4-36
+Added Pin To Net: NetName=GND Pin=U4-37
+Add Class Member: Failed to add class member : Component L1 6.8uH

@@ -1,0 +1,11 @@
+Added Component: Designator=L1(CY54-6.8UH)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/product-detail/Inductors-SMD_SHOU-HAN-CY54-6-8UH_C2929430.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Item Type"; Value = "Inductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C2929430"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "SHOU HAN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CY54-6.8UH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMD,5.2x5.8mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC1_2 Pin=L1-1
+Added Pin To Net: NetName=VOUT_12V Pin=L1-2
+Added Member To Class: ClassName=U_Power-Sheet Member=Component L1 6.8uH
