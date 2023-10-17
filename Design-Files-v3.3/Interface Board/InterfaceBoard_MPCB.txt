@@ -1,0 +1,12 @@
+Board Information Report
+Filename     : C:\Users\eSpark\Desktop\ChristianRaun-EthercatDesign\Design-Files-v3.3\Interface Board\InterfaceBoard_MPCB.PcbDoc
+Date         : 10/17/2023
+Time         : 6:51:07 PM
+Time Elapsed : 00:00:00
+
+Routing Information
+    Routing completion, 70.23%
+    Connections, 215
+    Connections routed, 151
+    Connections remaining, 64
+count : 4
