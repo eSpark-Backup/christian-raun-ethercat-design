@@ -1,0 +1,70 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\eSpark\Desktop\ChristianRaun-EthercatDesign\Design-Files-v3.3\Interface Board\InterfaceBoard_MPCB.PcbDoc
+Date     : 10/19/2023
+Time     : 12:43:01 PM
+
+Processing Rule : Clearance Constraint (Gap=7mil) (InDifferentialPairClass('EtherCAT_A_Lines')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=7mil) (InDifferentialPairClass('EtherCAT_B_Lines')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=7mil) (All),(All)
+   Violation between Clearance Constraint: (4.921mil < 7mil) Between Pad J6-MH(218.268mil,1075.63mil) on Multi-Layer And Pad J6-MP1(314.724mil,1088.228mil) on Bottom Layer 
+   Violation between Clearance Constraint: (4.921mil < 7mil) Between Pad J6-MH(218.268mil,1075.63mil) on Multi-Layer And Pad J6-MP2(121.811mil,1088.228mil) on Bottom Layer 
+   Violation between Clearance Constraint: (5.906mil < 7mil) Between Pad J6-MH1(218.268mil,154.37mil) on Multi-Layer And Pad J6-MP3(121.811mil,141.772mil) on Bottom Layer 
+   Violation between Clearance Constraint: (5.906mil < 7mil) Between Pad J6-MH1(218.268mil,154.37mil) on Multi-Layer And Pad J6-MP4(314.724mil,141.772mil) on Bottom Layer 
+Rule Violations :4
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=8mil) (Max=50mil) (Preferred=22mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=15mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=1000mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=20mil) (InNetClass('EtherCAT_A'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=20mil) (InNetClass('EtherCAT_B'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=20mil) (InDifferentialPairClass('EtherCAT_B_Lines'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=20mil) (InDifferentialPairClass('EtherCAT_A_Lines'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 4
+Waived Violations : 0
+Time Elapsed        : 00:00:02
