@@ -1,0 +1,32 @@
+Added Component: Designator=J5(HR963370A)
+Add component (AddParameter): Name = "Item Type"; Value = "Ethernet Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Hanrun"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "HR963370A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Custom"; VariantName = "[No Variations]"
+Added Component: Designator=J7(HR963370A)
+Add component (AddParameter): Name = "Item Type"; Value = "Ethernet Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Hanrun"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "HR963370A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Custom"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=TXA_P Pin=J5-1
+Added Pin To Net: NetName=TXA_N Pin=J5-2
+Added Pin To Net: NetName=VDDTXRX1 Pin=J5-3
+Added Pin To Net: NetName=GND_ETH Pin=J5-4
+Added Pin To Net: NetName=VDDTXRX1 Pin=J5-5
+Added Pin To Net: NetName=RXA_P Pin=J5-6
+Added Pin To Net: NetName=RXA_N Pin=J5-7
+Added Pin To Net: NetName=GND_ETH Pin=J5-8
+Added Pin To Net: NetName=LINK0 Pin=J5-9
+Added Pin To Net: NetName=NetJ5_10 Pin=J5-10
+Added Pin To Net: NetName=TXB_P Pin=J7-1
+Added Pin To Net: NetName=TXB_N Pin=J7-2
+Added Pin To Net: NetName=VDDTXRX2 Pin=J7-3
+Added Pin To Net: NetName=GND_ETH Pin=J7-4
+Added Pin To Net: NetName=VDDTXRX2 Pin=J7-5
+Added Pin To Net: NetName=RXB_P Pin=J7-6
+Added Pin To Net: NetName=RXB_N Pin=J7-7
+Added Pin To Net: NetName=GND_ETH Pin=J7-8
+Added Pin To Net: NetName=LINK1 Pin=J7-9
+Added Pin To Net: NetName=NetJ7_10 Pin=J7-10
+Added Member To Class: ClassName=U_Connector-Sheet Member=Component J5 HR963370A
+Added Member To Class: ClassName=U_Connector-Sheet Member=Component J7 HR963370A
