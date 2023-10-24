@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\eSpark\Desktop\ChristianRaun-EthercatDesign\Design-Files-v3.3\Interface Board\InterfaceBoard_MPCB.PcbDoc
-Date     : 10/19/2023
-Time     : 12:43:01 PM
+PCB File : C:\Users\LiberDB\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files-v3.3\Interface Board\Interface-Board_v3.3.PcbDoc
+Date     : 10/24/2023
+Time     : 8:07:37 PM
 
 Processing Rule : Clearance Constraint (Gap=7mil) (InDifferentialPairClass('EtherCAT_A_Lines')),(All)
 Rule Violations :0
@@ -10,11 +10,7 @@ Processing Rule : Clearance Constraint (Gap=7mil) (InDifferentialPairClass('Ethe
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=7mil) (All),(All)
-   Violation between Clearance Constraint: (4.921mil < 7mil) Between Pad J6-MH(218.268mil,1075.63mil) on Multi-Layer And Pad J6-MP1(314.724mil,1088.228mil) on Bottom Layer 
-   Violation between Clearance Constraint: (4.921mil < 7mil) Between Pad J6-MH(218.268mil,1075.63mil) on Multi-Layer And Pad J6-MP2(121.811mil,1088.228mil) on Bottom Layer 
-   Violation between Clearance Constraint: (5.906mil < 7mil) Between Pad J6-MH1(218.268mil,154.37mil) on Multi-Layer And Pad J6-MP3(121.811mil,141.772mil) on Bottom Layer 
-   Violation between Clearance Constraint: (5.906mil < 7mil) Between Pad J6-MH1(218.268mil,154.37mil) on Multi-Layer And Pad J6-MP4(314.724mil,141.772mil) on Bottom Layer 
-Rule Violations :4
+Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -65,6 +61,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 4
+Violations Detected : 0
 Waived Violations : 0
 Time Elapsed        : 00:00:02
