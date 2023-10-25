@@ -186,10 +186,6 @@ DocumentUniqueId=
 DocumentPath=Project Outputs for Interface_Board\Design Rule Check - Interface-Board_v3.html
 DItemRevisionGUID=
 
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Interface_Board\Design Rule Check - InterfaceBoard_MPCB.html
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0

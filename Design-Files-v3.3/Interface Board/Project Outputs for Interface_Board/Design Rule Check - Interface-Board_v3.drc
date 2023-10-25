@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\LiberDB\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files-v3.3\Interface Board\Interface-Board_v3.3.PcbDoc
-Date     : 10/24/2023
-Time     : 8:07:37 PM
+Date     : 10/25/2023
+Time     : 7:09:36 PM
 
 Processing Rule : Clearance Constraint (Gap=7mil) (InDifferentialPairClass('EtherCAT_A_Lines')),(All)
 Rule Violations :0
@@ -63,4 +63,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
