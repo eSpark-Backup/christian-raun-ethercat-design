@@ -1,3 +1,0 @@
-Removed Pin From Net: NetName=UART_IO Pin=R10-2
-Removed Member From Class: ClassName=U_Controller-Part-2 Member=R10
-Change Net Name : Old Net Name=UART_IO New Net Name=DIAG1

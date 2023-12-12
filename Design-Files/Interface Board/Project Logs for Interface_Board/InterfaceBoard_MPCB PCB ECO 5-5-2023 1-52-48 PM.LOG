@@ -1,6 +1,0 @@
-Change Component Designator: OldDesignator=S NewDesignator=J2
-Change Component Designator: OldDesignator=ss NewDesignator=U4
-Added Member To Class: ClassName=U_Stepper-Driver Member=Component C6 100uF
-Added Room: Name=U_Connector_Section
-Added Room: Name=U_Power-Section
-Added Room: Name=U_Stepper-Driver

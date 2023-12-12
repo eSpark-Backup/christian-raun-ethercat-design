@@ -1,6 +1,0 @@
-Change Component Designator: OldDesignator=S NewDesignator=J2
-Change Component Designator: OldDesignator=ss NewDesignator=U4
-Added Member To Class: ClassName=U_Connector_Section Member=Component J2 HY951180A
-Added Member To Class: ClassName=U_Power-Section Member=Component U4 AP63205WU-7
-Added Rule: Name=Schematic Matched Net Lengths
-Added Rule: Name=Schematic Matched Net Lengths_1

@@ -1,3 +1,0 @@
-Added Rule: Name=Schematic Matched Net Lengths
-Added Rule: Name=Schematic Matched Net Lengths_2
-Change Rule Scope 1 : Old Scope=InDifferentialPairClass('EtherCAT_A_Lines') New Scope=InNetClass('EtherCAT_B')
