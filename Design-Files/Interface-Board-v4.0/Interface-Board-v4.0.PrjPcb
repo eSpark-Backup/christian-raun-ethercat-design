@@ -184,6 +184,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KDRTFUTT
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Interface-Board-v4.0\Design Rule Check - Interface-Board-v4.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
