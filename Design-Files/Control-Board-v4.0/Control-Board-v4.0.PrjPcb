@@ -235,6 +235,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JRCGDGOJ
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Control-Board-v4.0\Design Rule Check - Control-Board-v4.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
