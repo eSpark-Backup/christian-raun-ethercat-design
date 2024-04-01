@@ -1,0 +1,94 @@
+Altium Designer Pick and Place Locations
+C:\Users\eSpark\Documents\GitHub\ChristianRaun-EthercatDesign\Design-Files\Control-Board-v4.0\Project Outputs for Control-Board-v4.0\Pick Place for Control-Board-v4.0.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       01/04/24
+Time:       14:35
+Revision:   487db7245b0c9be53431256501ce1d6b04a60a46
+Variant:    No variations
+Units used: mm
+
+Designator Comment              Layer       Center-X(mm) Center-Y(mm) Rotation Ref-X(mm) Ref-Y(mm) Pad-X(mm) Pad-Y(mm) 
+C1         100nF                TopLayer    6.0198mm     33.4010mm    180      6.0198mm  33.4010mm 6.3198mm  33.4010mm 
+C2         10pF                 TopLayer    24.1808mm    23.6400mm    90       24.1808mm 23.6400mm 24.1808mm 23.3400mm 
+C3         10pF                 TopLayer    24.1808mm    25.0650mm    270      24.1808mm 25.0650mm 24.1808mm 25.3650mm 
+C4         1uF                  TopLayer    5.0340mm     12.1985mm    180      5.0340mm  12.1985mm 5.3340mm  12.1985mm 
+C5         100nF                TopLayer    18.8924mm    25.2150mm    0        18.8924mm 25.2150mm 18.5924mm 25.2150mm 
+C6         1uF                  TopLayer    25.3213mm    12.4850mm    0        25.3213mm 12.4850mm 25.0213mm 12.4850mm 
+C7         100nF                TopLayer    25.3213mm    11.8820mm    0        25.3213mm 11.8820mm 25.0213mm 11.8820mm 
+C8         1uF                  TopLayer    25.5968mm    21.1070mm    90       25.5968mm 21.1070mm 25.5968mm 20.8070mm 
+C9         100nF                TopLayer    24.7142mm    21.1070mm    90       24.7142mm 21.1070mm 24.7142mm 20.8070mm 
+C10        100nF                TopLayer    25.0213mm    15.5217mm    0        25.0213mm 15.5217mm 24.7213mm 15.5217mm 
+C11        100nF                TopLayer    9.4938mm     25.2222mm    180      9.4938mm  25.2222mm 9.7938mm  25.2222mm 
+C12        100nF                TopLayer    5.0340mm     20.7820mm    180      5.0340mm  20.7820mm 5.3340mm  20.7820mm 
+C13        100nF                TopLayer    5.0340mm     11.5820mm    180      5.0340mm  11.5820mm 5.3340mm  11.5820mm 
+C14        100nF                TopLayer    5.0340mm     17.5820mm    180      5.0340mm  17.5820mm 5.3340mm  17.5820mm 
+C15        100nF                TopLayer    8.9984mm     6.6910mm     270      8.9984mm  6.6910mm  8.9984mm  6.9910mm  
+C16        100nF                TopLayer    12.5984mm    6.6910mm     270      12.5984mm 6.6910mm  12.5984mm 6.9910mm  
+C17        100nF                TopLayer    20.8984mm    6.7056mm     0        20.8984mm 6.7056mm  20.5984mm 6.7056mm  
+C18        100nF                TopLayer    25.0142mm    9.9820mm     0        25.0142mm 9.9820mm  24.7142mm 9.9820mm  
+C19        4.7uF                BottomLayer 25.2825mm    17.2903mm    270      25.2825mm 17.2903mm 25.2825mm 17.7602mm 
+C20        10uF                 BottomLayer 24.2507mm    17.2903mm    270      24.2507mm 17.2903mm 24.2507mm 17.7602mm 
+C21        4.7uF                BottomLayer 19.4691mm    23.0632mm    0        19.4691mm 23.0632mm 18.9992mm 23.0632mm 
+C22        4.7uF                TopLayer    15.3285mm    26.0016mm    0        15.3285mm 26.0016mm 14.8586mm 26.0016mm 
+C23        100nF                TopLayer    15.4984mm    25.2150mm    0        15.4984mm 25.2150mm 15.1984mm 25.2150mm 
+C24        100nF                BottomLayer 21.0106mm    17.7800mm    180      21.0106mm 17.7800mm 21.3106mm 17.7800mm 
+C25        100nF                BottomLayer 21.4884mm    13.6200mm    270      21.4884mm 13.6200mm 21.4884mm 13.9200mm 
+C26        100nF                TopLayer    17.5984mm    25.2150mm    0        17.5984mm 25.2150mm 17.2984mm 25.2150mm 
+C27        100nF                TopLayer    5.0340mm     14.7820mm    180      5.0340mm  14.7820mm 5.3340mm  14.7820mm 
+C28        100nF                TopLayer    13.3984mm    6.6910mm     270      13.3984mm 6.6910mm  13.3984mm 6.9910mm  
+C29        1uF                  TopLayer    5.0340mm     13.9820mm    180      5.0340mm  13.9820mm 5.3340mm  13.9820mm 
+C30        4.7uF                BottomLayer 24.5840mm    13.9192mm    0        24.5840mm 13.9192mm 24.1141mm 13.9192mm 
+C31        100nF                TopLayer    25.0213mm    14.7820mm    0        25.0213mm 14.7820mm 24.7213mm 14.7820mm 
+C32        10pF                 TopLayer    20.8924mm    26.0350mm    180      20.8924mm 26.0350mm 21.1924mm 26.0350mm 
+C33        10pF                 TopLayer    19.4924mm    26.0350mm    0        19.4924mm 26.0350mm 19.1924mm 26.0350mm 
+C34        100nF                BottomLayer 11.4554mm    15.3114mm    270      11.4554mm 15.3114mm 11.4554mm 15.6114mm 
+D1         1N4148WT             TopLayer    9.8588mm     26.3224mm    180      9.8588mm  26.3224mm 10.8588mm 26.3224mm 
+D2         1N4148WT             TopLayer    9.8588mm     27.4828mm    180      9.8588mm  27.4828mm 10.8588mm 27.4828mm 
+D3         USBLC6-4SC6          BottomLayer 32.1056mm    23.3934mm    180      32.1056mm 23.3934mm 33.4156mm 24.3434mm 
+D4         USBLC6-2P6           BottomLayer 32.0690mm    17.8380mm    270      32.0690mm 17.8380mm 31.5690mm 18.6430mm 
+D5         PESDHC3D3V3U         BottomLayer 8.0403mm     31.1474mm    90       8.0403mm  31.1474mm 8.0403mm  29.9974mm 
+J1         X1321WR-2x05J-C40D18 TopLayer    15.5194mm    31.2674mm    180      15.5194mm 31.2674mm 20.5994mm 32.5374mm 
+J2         M55-6013242R         TopLayer    32.0690mm    15.5330mm    90       32.0690mm 15.5330mm 34.8190mm 6.0080mm  
+L1         MLB1608-201P1A(f)    TopLayer    14.4984mm    27.0038mm    0        14.4984mm 27.0038mm 13.7984mm 27.0038mm 
+L2         MLB1608-201P1A(f)    TopLayer    24.9946mm    10.9502mm    0        24.9946mm 10.9502mm 24.2946mm 10.9502mm 
+L3         MLB1608-201P1A(f)    TopLayer    24.7142mm    19.3802mm    90       24.7142mm 19.3802mm 24.7142mm 18.6802mm 
+L4         MLB1608-201P1A(f)    BottomLayer 22.4028mm    13.2192mm    90       22.4028mm 13.2192mm 22.4028mm 12.5192mm 
+L5         MLB1608-201P1A(f)    BottomLayer 22.5108mm    16.1547mm    180      22.5108mm 16.1547mm 23.2108mm 16.1547mm 
+L6         MLB1608-201P1A(f)    TopLayer    25.4213mm    16.3820mm    0        25.4213mm 16.3820mm 24.7213mm 16.3820mm 
+LED1       Yellow               TopLayer    -3.8220mm    21.5900mm    180      -3.8220mm 21.5900mm -3.0720mm 21.5900mm 
+LED2       RED                  TopLayer    -3.8220mm    25.9758mm    180      -3.8220mm 25.9758mm -3.0720mm 25.9758mm 
+LED3       Emerald              TopLayer    -3.8221mm    17.2042mm    180      -3.8221mm 17.2042mm -3.0721mm 17.2042mm 
+P1         "TEST POINT"         TopLayer    28.8036mm    -4.5466mm    0        28.8036mm -4.5466mm 28.8036mm -4.5466mm 
+P2         "TEST POINT"         TopLayer    31.9024mm    -4.5466mm    0        31.9024mm -4.5466mm 31.9024mm -4.5466mm 
+R1         10K                  TopLayer    6.0198mm     32.4866mm    0        6.0198mm  32.4866mm 5.7448mm  32.4866mm 
+R2         10K                  TopLayer    18.4734mm    6.7056mm     0        18.4734mm 6.7056mm  18.1984mm 6.7056mm  
+R3         220R                 TopLayer    -4.2970mm    20.4978mm    180      -4.2970mm 20.4978mm -4.0220mm 20.4978mm 
+R4         220R                 TopLayer    -4.2970mm    24.8920mm    180      -4.2970mm 24.8920mm -4.0220mm 24.8920mm 
+R5         49.9R                TopLayer    -4.2970mm    16.1036mm    180      -4.2970mm 16.1036mm -4.0220mm 16.1036mm 
+R6         10K                  TopLayer    14.8844mm    6.4306mm     270      14.8844mm 6.4306mm  14.8844mm 6.7056mm  
+R7         10K                  TopLayer    23.5356mm    8.2070mm     270      23.5356mm 8.2070mm  23.5356mm 8.4820mm  
+R8         10K                  TopLayer    22.7506mm    8.2070mm     270      22.7506mm 8.2070mm  22.7506mm 8.4820mm  
+R9         10K                  BottomLayer 17.6734mm    22.2820mm    0        17.6734mm 22.2820mm 17.3984mm 22.2820mm 
+R10        33R                  TopLayer    16.7270mm    26.5339mm    90       16.7270mm 26.5339mm 16.7270mm 26.0640mm 
+R11        10K                  TopLayer    15.8496mm    6.4306mm     90       15.8496mm 6.4306mm  15.8496mm 6.1556mm  
+R12        10K                  TopLayer    16.5100mm    6.4306mm     90       16.5100mm 6.4306mm  16.5100mm 6.1556mm  
+R13        10K                  TopLayer    14.5442mm    1.8542mm     180      14.5442mm 1.8542mm  14.8192mm 1.8542mm  
+R14        3.3K                 TopLayer    7.6374mm     27.2078mm    90       7.6374mm  27.2078mm 7.6374mm  26.9328mm 
+R15        22R                  TopLayer    11.7904mm    25.4972mm    270      11.7904mm 25.4972mm 11.7904mm 25.7722mm 
+R16        3.3K                 TopLayer    10.7188mm    25.2222mm    180      10.7188mm 25.2222mm 10.9938mm 25.2222mm 
+R17        12.1K                BottomLayer 20.4470mm    12.8200mm    270      20.4470mm 12.8200mm 20.4470mm 13.5820mm 
+R18        33R                  TopLayer    4.8641mm     19.5820mm    180      4.8641mm  19.5820mm 5.3340mm  19.5820mm 
+R19        33R                  TopLayer    4.8641mm     18.3820mm    180      4.8641mm  18.3820mm 5.3340mm  18.3820mm 
+R20        100R                 BottomLayer 19.5306mm    14.5900mm    90       19.5306mm 14.5900mm 19.5306mm 14.3150mm 
+R21        100R                 BottomLayer 19.5306mm    16.4100mm    270      19.5306mm 16.4100mm 19.5306mm 16.6850mm 
+R22        82R                  BottomLayer 18.3450mm    12.2980mm    90       18.3450mm 12.2980mm 18.3450mm 12.0230mm 
+R23        1K                   TopLayer    22.4594mm    32.2624mm    90       22.4594mm 32.2624mm 22.4594mm 31.9874mm 
+SW1        B3U-1000P            TopLayer    6.0198mm     35.2552mm    180      6.0198mm  35.2552mm 7.7198mm  35.2552mm 
+U1         LAN9255/ZMX019       TopLayer    15.1984mm    16.1820mm    270      15.1984mm 16.1820mm 21.3984mm 23.8820mm 
+U2         CAT24C256WI-GT3      TopLayer    18.7362mm    2.4892mm     180      18.7362mm 2.4892mm  21.4362mm 0.5842mm  
+U3         TLE5012BE5000FUMA1   BottomLayer 15.5000mm    15.5000mm    180      15.5000mm 15.5000mm 18.3450mm 17.4050mm 
+X1         25MHz                TopLayer    25.7710mm    23.9400mm    90       25.7710mm 23.9400mm 26.3960mm 23.1150mm 
+X2         32.768KHZ            TopLayer    20.1930mm    27.2034mm    180      20.1930mm 27.2034mm 20.9430mm 27.2034mm 

@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Interface-Board-v4.0.PcbDoc   4/1/2024  1:06:01 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Interface-Board-v4.0-RoundHoles.TXT
+ASCII SlotHoles File : Interface-Board-v4.0-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             193       PTH        20.96inch (532.26mm)
+T2      35mil (0.9mm)                                             Round             4         PTH        1.74inch (44.07mm)
+T3      37mil (0.95mm)                                            Round             4         PTH        0.30inch (7.62mm)
+T4      126mil (3.2mm)                                            Round             4         PTH        3.66inch (93.00mm)
+T5      39mil (1mm)                                               Slot              1         NPTH       0.04inch (0.95mm)
+T6      55mil (1.4mm)                                             Round             4         NPTH       1.27inch (32.20mm)
+T7      75mil (1.9mm)                                             Slot              1         NPTH       0.00inch (0.05mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              211
+
+Total Processing Time (hh:mm:ss) : 00:00:00
