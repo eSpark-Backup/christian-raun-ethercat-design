@@ -2,8 +2,29 @@
 FileName = Control-Board-v4.0.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Layer
-      File : Control-Board-v4.0.GBL
+Generating : Top Overlay
+      File : Control-Board-v4.0.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : Control-Board-v4.0.GBP
+
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Bottom Layer
 
@@ -11,9 +32,6 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D10
-    D14
-    D15
     D19
     D20
     D22
@@ -22,103 +40,38 @@ Used DCodes :
     D26
     D32
     D35
-    D64
-    D65
-    D90
-    D91
-    D92
     D93
     D94
     D95
     D96
     D97
-    D98
-    D99
-    D100
-    D101
-    D102
-    D103
-    D104
-    D105
-    D106
-    D107
 *************************************************************
 
 *************************************************************
-Generating : Fabrication
-      File : Control-Board-v4.0.GM3
+Generating : Bottom Overlay
+      File : Control-Board-v4.0.GBO
 
-    Adding Layer      : Fabrication
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
     D10
-    D65
+    D12
+    D15
+    D115
+    D116
     D117
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : Control-Board-v4.0.GTL
+Generating : Board Outline
+      File : Control-Board-v4.0.GM2
 
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Board Outline
 
 
 Used DCodes :
-    D10
-    D14
-    D15
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D64
-    D65
-    D66
-    D67
-    D68
-    D69
-    D70
-    D71
-    D72
-    D73
-    D74
-    D75
-    D76
-    D77
-    D78
-    D79
-    D80
-    D81
-    D82
-    D83
-    D84
-    D85
-    D86
-    D87
-    D88
-    D89
-    D90
-    D91
-    D92
+    D12
 *************************************************************
 
 *************************************************************
@@ -129,37 +82,6 @@ Generating : Keep-Out Layer
 
 
 Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : Control-Board-v4.0.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D39
-    D40
-    D42
-    D44
-    D45
-    D46
-    D55
-    D60
-    D61
-    D62
-    D63
-    D108
-    D109
-    D110
-    D111
-    D112
-    D113
 *************************************************************
 
 *************************************************************
@@ -197,22 +119,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : Control-Board-v4.0.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D10
-    D12
-    D15
-    D114
-    D115
-    D116
-*************************************************************
-
-*************************************************************
 Generating : Top Paste
       File : Control-Board-v4.0.GTP
 
@@ -247,10 +153,51 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Paste
-      File : Control-Board-v4.0.GBP
+Generating : Fabrication
+      File : Control-Board-v4.0.GM3
 
-    Adding Layer      : Bottom Paste
+    Adding Layer      : Fabrication
+
+
+Used DCodes :
+    D10
+    D65
+    D118
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Control-Board-v4.0.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D39
+    D40
+    D42
+    D44
+    D45
+    D46
+    D55
+    D60
+    D61
+    D62
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : Control-Board-v4.0.GPB
 
     Adding Layer      : Bottom Layer
 
@@ -266,6 +213,8 @@ Used DCodes :
     D26
     D32
     D35
+    D90
+    D91
     D93
     D94
     D95
@@ -274,14 +223,123 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Board Outline
-      File : Control-Board-v4.0.GM2
+Generating : Top Layer
+      File : Control-Board-v4.0.GTL
 
-    Adding Layer      : Board Outline
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D12
+    D10
+    D14
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+*************************************************************
+
+*************************************************************
+Generating : Dimensions
+      File : Control-Board-v4.0.GM1
+
+    Adding Layer      : Dimensions
+
+
+Used DCodes :
+    D10
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Control-Board-v4.0.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D14
+    D19
+    D20
+    D22
+    D24
+    D25
+    D26
+    D32
+    D35
+    D63
+    D64
+    D65
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
 *************************************************************
 
 *************************************************************
@@ -320,53 +378,6 @@ Used DCodes :
     D60
     D61
     D62
-    D63
-*************************************************************
-
-*************************************************************
-Generating : Bottom Pad Master
-      File : Control-Board-v4.0.GPB
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D19
-    D20
-    D22
-    D24
-    D25
-    D26
-    D32
-    D35
-    D90
-    D91
-    D93
-    D94
-    D95
-    D96
-    D97
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : Control-Board-v4.0.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
 *************************************************************
 
 *************************************************************
@@ -382,8 +393,8 @@ Used DCodes :
     D10
     D12
     D65
-    D118
     D119
+    D120
 *************************************************************
 
 *************************************************************
@@ -397,5 +408,14 @@ Generating : Drill Guide
 
 Used DCodes :
     D12
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : Control-Board-v4.0.GM
+
+
+Used DCodes :
+    D121
 *************************************************************
 
